@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>{#youtube_dlg.title}</title>
+  <script type="text/javascript" src="../../tiny_mce_popup.js"></script>
+  <script type="text/javascript" src="js/dialog.js"></script>
+</head>
+<body>
+
+<form onsubmit="YouTubeDialog.insert();return false;" action="#">
+  <p>{#youtube_dlg.instr}</p>
+
+  <div class="mceActionPanel">
+    <div style="float: left">
+      {#youtube_dlg.ytID} <input id="youtubeID" name="youtubeID" type="text" class="text" size="60" value="" />
+    </div><br /><br />
+    <div style="float: right">
+      {#youtube_dlg.ytW} <input id="youtubeWidth" name="youtubeWidth" type="text" class="text" size="2" value="350" />&nbsp;
+      {#youtube_dlg.ytH} <input id="youtubeHeight" name="youtubeHeight" type="text" class="text" size="2" value="300" /><p>
+	  {#youtube_dlg.ytVs} <input id="youtubeHspace" name="youtubeHspace" type="text" class="text" size="2" value="3" />&nbsp;
+      {#youtube_dlg.ytHs} <input id="youtubeVspace" name="youtubeVspace" type="text" class="text" size="2" value="3" /></p>
+    </div><br />
+    <div>
+      {#youtube_dlg.ytAlg} <select id="youtubeAlign" name="youtubeAlign">
+        <option value=""></option>
+      	<option value="left">{#youtube_dlg.ytAlgL}</option>
+        <option value="right">{#youtube_dlg.ytAlgR}</option>
+        <option value="center">{#youtube_dlg.ytAlgC}</option>
+        <option value="justify">{#youtube_dlg.ytAlgJ}</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="mceActionPanel">
+    <div style="float:left;padding-top:23px">
+      <input type="button" id="insert" name="insert" value="{#insert}" onclick="YouTubeDialog.insert();" />
+    </div>
+    <div style="float:right;padding-top:23px">
+      <input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+    </div>
+  </div>
+</form>
+
+</body>
+</html>

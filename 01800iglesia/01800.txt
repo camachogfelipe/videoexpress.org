@@ -1,0 +1,41 @@
+<p><strong><em>Visi&oacute;n:&nbsp;</em></strong></p>
+<p><em>Proveer con tecnolog&iacute;a a la Iglesia Cristiana para la evangelizaci&oacute;n en el Tercer Milenio. </em><em>Servir a los Pastores (l&iacute;deres y administradores) de las congregaciones Cristianas Evang&eacute;licas&nbsp; peque&ntilde;as y medianas de habla hispana.</em></p>
+<p><em>Entregarles nuestras herramientas tecnol&oacute;gicas disponibles para hacer que la Iglesia Virtual surja, y as&iacute; expandan en general el mensaje del evangelio de Cristo.</em></p>
+<p><em>&nbsp;</em></p>
+<p><em><strong>Misi&oacute;n:</strong>&nbsp;</em></p>
+<p><em>Es un portal que presta el servicio a todas las personas que deseen conocer, interactuar&nbsp;y vincularse activamente de manera virtual,&nbsp;con una Iglesia Cristiana&nbsp;rompiendo&nbsp;todo impedimento de espacio, tiempo&nbsp;y distancia.&nbsp;</em></p>
+<p><em><strong>La raz&oacute;n de ser:&nbsp;</strong>Es ofrecer a todas las instituciones que lo requieran una plataforma dise&ntilde;ada para poner al aire la Iglesia en su extensi&oacute;n&nbsp;Virtual.&nbsp;www.01800iglesia.org&nbsp;est&aacute;&nbsp;desarrollada&nbsp;de forma&nbsp;<strong>din&aacute;mica, agradable y funcional</strong>&nbsp;para prestar&nbsp;un&nbsp;servicio gratis&nbsp;a&nbsp;todo individuo&nbsp;que&nbsp;desee conocer y tener un lugar cerca&nbsp;para congregarse,&nbsp;sin importar la distancia en donde se encuentra actualmente, nosotros le suministraremos lo necesario&nbsp;<strong>a un clic de distancia</strong>.</em></p>
+<p><em><strong>Historia:</strong>&nbsp;Inicia en&nbsp; Junio 14 de 2006, encontrando la necesidad real de hacer un<strong>&nbsp;Directorio&nbsp; de&nbsp; Iglesias&nbsp; de&nbsp; Colombia&nbsp;</strong>que se desarrollar&aacute; y ampliar&aacute; para convertirse luego en un&nbsp;<strong>Directorio&nbsp;de&nbsp; Iglesias&nbsp; por&nbsp; pa&iacute;ses.&nbsp;&nbsp;</strong>Este portal inicia sus labores en crear y mantener una&nbsp;&nbsp;base&nbsp; de&nbsp; datos &nbsp;<strong>confiable</strong>&nbsp;ofreciendo informaci&oacute;n a todo usuario interesado en&nbsp;edificarse.&nbsp;</em></p>
+<p><strong><em>Esta es la informaci&oacute;n b&aacute;sica que ofrecemos:</em></strong></p>
+<ul>
+<li><em>Nombres de las Iglesias.</em></li>
+<li><em>Logotipo imagen corporativa.</em></li>
+<li><em>Pa&iacute;s, departamento y cuidad.</em></li>
+<li><em>Direcci&oacute;n f&iacute;sica.</em></li>
+<li><em>Tel&eacute;fonos, fijos, PBX y/o celular</em></li>
+<li><em>Direcci&oacute;n electr&oacute;nica.</em></li>
+<li><em>Pastores y/o&nbsp; directores.</em></li>
+<li><em>P&aacute;gina web&nbsp;y v&iacute;nculos.</em></li>
+<li><em>Redes sociales.</em></li>
+<li><em>Tel&eacute;fonos con indicativos de la cuidad y el pa&iacute;s.</em></li>
+<li><em>Indicador de confiabilidad de informaci&oacute;n.</em></li>
+</ul>
+<p><em>&nbsp;<strong>Esta es la informaci&oacute;n extendida que ofrecemos:</strong></em>&nbsp;</p>
+<ul>
+<li><em>Redes sociales.</em></li>
+<li><em>Ministerios o grupos que&nbsp; participan en la congregaci&oacute;n.</em></li>
+<li><em>Pr&eacute;dicas en Video.</em></li>
+<li><em>Servicio EN VIVO.</em></li>
+<li><em>Pr&eacute;dicas en Audio.</em></li>
+<li><em>Historia, Misi&oacute;n, Visi&oacute;n, Credo de la Iglesia.</em></li>
+<li><em>Horas lugar y d&iacute;a en que se ofrecen:</em></li>
+<ul>
+<li><em>Cultos o servicios.</em></li>
+<li><em>Actividades ministeriales corrientes</em></li>
+<li><em>Actividades ministeriales extraordinarias.</em></li>
+</ul>
+<li><em>Sedes o Iglesias filiales.</em></li>
+</ul>
+<p><em>01800Iglesia.org es una marca registrada por VideoExpress.org</em></p>
+<p><img src=/imagenes/logo.png alt=01800Iglesia width=176 height=109 /></p>
+<p><em>Bogot&aacute; - Colombia Mayo de 2014.</em></p>
