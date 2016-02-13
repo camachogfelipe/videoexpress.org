@@ -3,6 +3,7 @@
 ## Team
 
 * [Felipe Camacho](http://cogroupsas.com/)
+* Alejandro Beltran (Diseñador)
 
 ## Description
 
@@ -13,9 +14,8 @@
 - 01800Iglesia (http://www.01800iglesia.org)
 - VideoExpress (http://www.videoexpress.org/catalogo)
 - LibroExpress (http://www.libroexpress.org)
-- Palabra Viva (http://www.palabraviva.co)
 - ministerios onlines (http://www.ministerios-online.org)
 - cinexpress (http://www.cinexpress.org)
-- fslibertad (http://www.fslibertad.org)
+- fslibertad
 - Liceo Anglo Colombiano - Armenía
 - Red Librería Cristiana

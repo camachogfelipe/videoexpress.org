@@ -1,9 +1,0 @@
-[12-Jan-2011 11:27:19] PHP Fatal error:  Call to a member function get() on a non-object in /home/sitioswe/public_html/garabatos/templates/gk_elvesocial/libs/menu/base.class.php on line 417
-[12-Jan-2011 11:31:47] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/sitioswe/public_html/garabatos/templates/gk_elvesocial/index.php on line 60
-[12-Jan-2011 11:32:28] PHP Fatal error:  Call to a member function get() on a non-object in /home/sitioswe/public_html/garabatos/templates/gk_elvesocial/libs/menu/base.class.php on line 417
-[12-Jan-2011 11:32:59] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/sitioswe/public_html/garabatos/templates/gk_elvesocial/index.php on line 61
-[12-Jan-2011 11:33:02] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/sitioswe/public_html/garabatos/templates/gk_elvesocial/index.php on line 61
-[20-Jan-2011 13:08:53] PHP Fatal error:  Call to undefined method stdClass::render() in /home/sitioswe/public_html/garabatos/components/com_jcomments/libraries/joomlatune/template.php on line 390
-[20-Jan-2011 13:08:55] PHP Fatal error:  Call to undefined method stdClass::render() in /home/sitioswe/public_html/garabatos/components/com_jcomments/libraries/joomlatune/template.php on line 390
-[20-Jan-2011 13:10:25] PHP Fatal error:  Call to undefined method stdClass::render() in /home/sitioswe/public_html/garabatos/components/com_jcomments/libraries/joomlatune/template.php on line 390
-[20-Jan-2011 13:10:50] PHP Fatal error:  Call to undefined method stdClass::render() in /home/sitioswe/public_html/garabatos/components/com_jcomments/libraries/joomlatune/template.php on line 390
