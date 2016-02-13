@@ -1,0 +1,23 @@
+body
+{
+  background-color: #050E15;
+}
+
+#ambiente_top, #ambiente_bottom
+{
+  min-height: 243px;
+  background-repeat: no-repeat;
+}
+
+#ambiente_top
+{
+  z-index: 1;
+  background-image: url(images/noche_top.jpg);
+}
+
+#ambiente_bottom
+{
+  z-index: -1;
+  background-image: url(images/noche_bottom.jpg);
+  margin-top: -136px;
+}

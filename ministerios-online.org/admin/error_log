@@ -1,0 +1,73 @@
+[22-Jul-2012 12:44:18] PHP Warning:  require_once(admin/Connections/Proyectos.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 1
+[22-Jul-2012 12:44:18] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'admin/Connections/Proyectos.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 1
+[22-Jul-2012 12:44:21] PHP Warning:  require_once(admin/Connections/Proyectos.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 1
+[22-Jul-2012 12:44:21] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'admin/Connections/Proyectos.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 1
+[22-Jul-2012 12:44:49] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 79
+[22-Jul-2012 12:44:49] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 95
+[22-Jul-2012 12:46:15] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 79
+[22-Jul-2012 12:46:15] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 95
+[22-Jul-2012 12:46:53] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 79
+[22-Jul-2012 12:46:53] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 95
+[22-Jul-2012 12:49:21] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 81
+[22-Jul-2012 12:49:21] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 97
+[22-Jul-2012 12:49:49] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 81
+[22-Jul-2012 12:49:49] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 97
+[22-Jul-2012 12:50:52] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 81
+[22-Jul-2012 12:50:52] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 97
+[22-Jul-2012 12:51:55] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 81
+[22-Jul-2012 12:51:55] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 97
+[22-Jul-2012 12:52:17] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 79
+[22-Jul-2012 12:52:17] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 95
+[22-Jul-2012 12:53:57] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 79
+[22-Jul-2012 12:53:57] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 95
+[22-Jul-2012 12:54:51] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 79
+[22-Jul-2012 12:54:51] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 95
+[22-Jul-2012 12:55:15] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 95
+[22-Jul-2012 14:49:35] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 81
+[22-Jul-2012 14:50:12] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 81
+[22-Jul-2012 16:53:16] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/admin.php on line 81
+[22-Jul-2012 17:13:40] PHP Warning:  include(lib/class_dbcon.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/cieccom/public_html/paginaprueba/admin/formulario_afiliaciones.php on line 335
+[22-Jul-2012 17:13:40] PHP Warning:  include(lib/class_dbcon.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/cieccom/public_html/paginaprueba/admin/formulario_afiliaciones.php on line 335
+[22-Jul-2012 17:13:40] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'lib/class_dbcon.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cieccom/public_html/paginaprueba/admin/formulario_afiliaciones.php on line 335
+[22-Jul-2012 17:13:40] PHP Fatal error:  Class 'doConnect' not found in /home/cieccom/public_html/paginaprueba/admin/formulario_afiliaciones.php on line 336
+[22-Jul-2012 17:31:20] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/formulario_afiliaciones2.php on line 408
+[23-Jul-2012 16:33:11] PHP Parse error:  syntax error, unexpected $end in /home/cieccom/public_html/paginaprueba/admin/inicio_afiliaciones.php on line 360
+[23-Jul-2012 16:33:13] PHP Parse error:  syntax error, unexpected $end in /home/cieccom/public_html/paginaprueba/admin/inicio_afiliaciones.php on line 360
+[23-Jul-2012 16:34:56] PHP Parse error:  syntax error, unexpected $end in /home/cieccom/public_html/paginaprueba/admin/inicio_afiliaciones.php on line 342
+[23-Jul-2012 16:34:58] PHP Parse error:  syntax error, unexpected $end in /home/cieccom/public_html/paginaprueba/admin/inicio_afiliaciones.php on line 342
+[23-Jul-2012 16:54:56] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/inicio_afiliaciones.php on line 294
+[23-Jul-2012 16:57:02] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/inicio_afiliaciones.php on line 297
+[23-Jul-2012 16:57:56] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/inicio_afiliaciones.php on line 297
+[23-Jul-2012 17:00:00] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/inicio_afiliaciones.php on line 297
+[23-Jul-2012 17:00:03] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/inicio_afiliaciones.php on line 297
+[23-Jul-2012 17:01:50] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/inicio_afiliaciones.php on line 297
+[23-Jul-2012 17:52:01] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/editar_empresa.php on line 316
+[23-Jul-2012 17:53:07] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/editar_empresa.php on line 316
+[23-Jul-2012 17:53:22] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/editar_empresa.php on line 316
+[23-Jul-2012 18:07:58] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/editar_empresa.php on line 371
+[23-Jul-2012 18:08:41] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/editar_empresa.php on line 371
+[23-Jul-2012 18:11:18] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/editar_empresa.php on line 371
+[23-Jul-2012 18:11:49] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/editar_empresa.php on line 371
+[23-Jul-2012 18:15:54] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/editar_empresa.php on line 371
+[23-Jul-2012 18:16:24] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/editar_empresa.php on line 371
+[25-Jul-2012 11:27:41] PHP Warning:  move_uploaded_file(admin/uploads/nota.png) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/cieccom/public_html/paginaprueba/admin/editar.php on line 41
+[25-Jul-2012 11:27:41] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpr02nul' to 'admin/uploads/nota.png' in /home/cieccom/public_html/paginaprueba/admin/editar.php on line 41
+[25-Jul-2012 11:47:23] PHP Warning:  move_uploaded_file(..admin/uploads/lupa.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/cieccom/public_html/paginaprueba/admin/editar.php on line 43
+[25-Jul-2012 11:47:23] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpgslu7Z' to '..admin/uploads/lupa.jpg' in /home/cieccom/public_html/paginaprueba/admin/editar.php on line 43
+[25-Jul-2012 16:00:27] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/editar_empresa.php on line 394
+[25-Jul-2012 16:01:30] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/editar_empresa.php on line 395
+[25-Jul-2012 16:03:07] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/editar_empresa.php on line 396
+[25-Jul-2012 16:03:46] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/editar_empresa.php on line 396
+[25-Jul-2012 16:06:25] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieccom/public_html/paginaprueba/admin/editar_empresa.php on line 396
+[06-Feb-2013 09:59:42] PHP Parse error:  syntax error, unexpected $end in /home/cieecorg/public_html/admin/formulario_afiliaciones2.php on line 265
+[06-Feb-2013 11:26:22] PHP Parse error:  syntax error, unexpected '}' in /home/cieecorg/public_html/admin/editar_empresa.php on line 408
+[06-Feb-2013 11:27:00] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieecorg/public_html/admin/editar_empresa.php on line 401
+[06-Feb-2013 11:27:41] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/cieecorg/public_html/admin/editar_empresa.php on line 401
+[06-Feb-2013 12:16:52] PHP Parse error:  syntax error, unexpected ')' in /home/cieecorg/public_html/admin/editar_empresa.php on line 444
+[17-May-2013 15:47:21 US/Central] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/cieecorg/public_html/admin/admin.php on line 78
+[17-May-2013 15:47:21 US/Central] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, null given in /home/cieecorg/public_html/admin/admin.php on line 79
+[17-May-2013 15:47:21 US/Central] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/cieecorg/public_html/admin/admin.php on line 152
+[17-May-2013 15:47:21 US/Central] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, null given in /home/cieecorg/public_html/admin/admin.php on line 153
+[17-May-2013 15:47:21 US/Central] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/cieecorg/public_html/admin/admin.php on line 170
+[17-May-2013 15:47:21 US/Central] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, null given in /home/cieecorg/public_html/admin/admin.php on line 171
+[17-May-2013 15:47:21 US/Central] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/cieecorg/public_html/admin/admin.php on line 208

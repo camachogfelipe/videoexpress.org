@@ -1,0 +1,211 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<META http-equiv=Content-Type content="text/html; charset=utf8"> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="CIEC style.css"/>
+<title>MINISTERIOS ONLINE</title>
+
+<link rel="stylesheet" type="text/css" href="Scripts/floatbox/floatbox.css"/>
+<script type="text/javascript" src="Scripts/floatbox/floatbox.js"></script>
+<script>
+<!--
+function valida_envio(){
+
+		document.formulario.action = 'resultados.php';
+		document.formulario.submit();
+	
+}
+function borrar_contenido(){
+
+		document.getElementById('keyword').value="";
+		
+	
+}
+function borrar_contenido2(){
+
+		document.getElementById('frmUsuario').value="";
+		
+	
+}
+function borrar_contenido3(){
+
+		document.getElementById('frmContrasena').value="";
+		
+	
+}
+function inicia_sesion(){
+
+	
+		document.frmLogin.submit();
+	
+}
+
+</script>
+</head>
+
+
+
+<body style="margin-top:0px">
+<div class="superior">
+	  <div class="interiorsup">
+   		<div class="logo"><a href="index.php"><img src="images/logoCIEC.png" alt="logo" width="158" height="161" align="left" /></a></div>
+        	<div class="barra"><img src="images/barra 2.png" alt="barra" width="837" height="40" align="right" /></div>
+            <div class="contmenu">
+            	<ul class="menu" >
+            		<li>Organizaci&oacute;n
+      					<ul>
+         					<li><a href="vision.html" class="floatbox">Visi&oacute;n</a></li>
+         					<li><a href="mision.html" class="floatbox">Misi&oacute;n</a></li>
+                            <li><a href="historia.html" class="floatbox" >Historia</a></li>
+      					</ul>
+   					</li>
+   					<li>Afiliaci&oacute;n
+      					<ul>
+        					<li><a href="pasos.html" class="floatbox" >Proceso</a></li>
+         					<li><a href="carta.doc" >Documentaci&oacute;n</a></li>
+                            <li><a href="formulario_preinscripcion.php" class="floatbox" >Preinscripci&oacute;n</a></li>
+      					</ul>
+  					</li>
+                    <li>Beneficios
+      					<ul>
+         					<li><a href="Beneficios.html" class="floatbox">Para su empresa</a></li>
+         					<li>Para el pa&iacute;s</li>
+                            <li>Para la Iglesia</li>
+      					</ul>
+   					</li>
+                    <li><a href="documentos/estatutos.pdf" class="floatbox">Estatutos</a>
+      					
+   					</li>
+                    <li><a href="formulario_contacto.html" class="floatbox">Contacto</a>
+   					</li>
+			  </ul>
+            </div>
+	  </div>
+        <div class="buscador" id="texto_pie" >
+		<form class="busqueda" id= "formulario" name="buscar" action="resultados.php" method="get" >
+        Encuentre lo que necesita en nuestra feria virtual de empresas 
+        	<select name="lugar" class="seleccion" id="lugar">
+            					 <? $queryMensaje2 = "select id_tipo_busqueda, nombre_tipo_busqueda from tipo_busqueda";
+                         $row1 = mysql_query($queryMensaje2,$conexion);			           
+	while($row = mysql_fetch_row($row1)) 
+	
+	{ $nombre =iconv('ISO-8859-1','UTF-8//TRANSLIT',$row[1]);
+	  $id = $row[0];
+						?>
+                    	<option value="<?php echo $id?>"><?php echo $nombre ?></option>
+                        
+                        <?
+							}
+						
+						?>
+			</select>
+   
+             
+            					
+         <select name="clasificacion" id="clasificacion" class="seleccion" >
+         <? $queryMensaje2 = "select id_clasificacion, nombre_clasificacion from clasificacion";
+                         $row1 = mysql_query($queryMensaje2,$conexion);			           
+	while($row = mysql_fetch_row($row1)) 
+	
+	{  $nombre =iconv('ISO-8859-1','UTF-8//TRANSLIT',$row[1]);
+	  $id = $row[0];
+						?>
+                    	<option value="<?php echo $id?>"><?php echo $nombre ?></option>
+                        
+                        <?
+							}
+						
+						?>
+		  </select>
+            <input name="keyword" class="seleccion" value="ingrese su busqueda" id="keyword" align="top" size="15" onclick="borrar_contenido();"></input>
+            <input  type="image"  align="middle"  src="images/btn_busqueda.png"onclick="valida_envio();" ></input>
+        </form>
+        
+        <form class="ingreso" id="frmLogin" name="frmLogin" method="POST" action="<?php echo $loginFormAction; ?>">Ingrese al sistema o <a href="" style="color:#C00">afiliese</a><br />
+        <input name="frmUsuario" id="frmUsuario"class="seleccion" size="10" value="Usuario" onclick="borrar_contenido2();"></input>
+        <input  type="password" name="frmContrasena" class="seleccion" size="10" value="contrasena" id="frmContrasena" onclick="borrar_contenido3();" ></input>
+        <input name="btnLogin" type="image" src="images/btn_ingreso.png" align="middle" onclick="inicia_sesion();" ></input>
+        </form>
+      
+       </div>
+       <div class="contenido">
+   		 <div class="images">
+             <video controls="controls" height="640" width="960" >
+<source src="media/CIEC.ogv" type='video/ogg; codecs="theora, vorbis"'/>
+<source src="media/CIEC.webm" type='video/webm' >
+<source src="media/CIEC.mp4" type='video/mp4'>
+
+</video>  
+	       
+</div>
+   		 <div class="columnas"> 
+          	
+            <div class="contactos">
+            <h1 id="blanco">Formas de Contacto</h1>
+            <p><img src="images/telefono.png" width="225" height="40" alt="telefono" style="margin-top:-7px"/></p>
+            <img src="images/celular.png" width="224" height="55" alt="fax" />
+            <p><img src="images/mail.png" width="226" height="42" alt="mail" /></p>
+            <img src="images/direccion.png" width="224" height="51" alt="mail" /></p>
+           <p id="centrar"></img></p>                        </div>
+           <div class="feria">
+             <h1>Feria Virtual</h1><p>
+             Cientos de empresas se estan sumando para darle lo mejor a usted. &Uacute;nase a trv&eacute;s de estos sencillos pasos y haga parte de la m&aacute;s grande agremiaci&oacute;n de empresas cristianas.</p>
+           </div>
+          
+         
+          </div>
+        <div class="noticias">
+            <h1>NOTI<font color="#CC0000">CIEC</font></h1>
+          <div class="noti1">Entérate de las últimás noticias para que estes informado y puedas dar crecimiento a tu empresa.</div>
+              <div class="numerador">1 2 3 4 5 &gt;&gt; </div>
+          </div>
+          </div>
+    	<div class="inferior">
+        	<div class="interiorinf">
+            <div class="interiorinfenlaces">
+            	<div class="panelinf">
+                <img src="images/CIEC.png" width="102" height="32" alt="ciec letra" />
+                </div><br/><br/><br/>
+                 <div class="panelinf2">
+                <a href="">Organizaci&oacute;n<br /></a>
+                <a href="">Afiliaci&oacute;n<br /></a>
+               	<a href=""> Beneficios<br /></a>
+                <a href="">Estatutos</a>
+              
+    <p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+      src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
+  </p>
+
+                </div>
+                <div class="panelinf2">
+                <a href="">Junta Directiva<br /></a>
+                <a href="">Visionarios<br /></a>
+               	<a href="">Lista de Miembros<br /></a>
+                </div>
+                <div class="panelinf2">
+                <a href="">Recursos<br /></a>
+                <a href="">Im&aacute;genes<br /></a>
+               	<a href="">Video<br /></a>
+                </div>                           
+             </div>
+             <div class="interioraliados">
+             <div class="panelinf" id="titulo1">
+                Aliados
+               </div><br/><br/><br/>
+                <div class="panelinf3"><img src="images/servientrega.png" alt="logo acopi" width="170" height="110" hspace="5" vspace="5" align="middle" /><img src="images/fondonacional.png" alt="fondo" width="126" height="110" hspace="5" vspace="5" align="middle" /> <img src="images/logo patrocinio.png" alt="logo patrocinio" width="126" height="110" hspace="5" vspace="5" align="middle" /><img src="images/logopatrocinio1.png" alt="patrocinio 2" width="129" height="112" hspace="5" vspace="5" align="middle" /></div>
+             </div>
+    	</div>
+    </div>
+	</div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>
+</body>
+</html>

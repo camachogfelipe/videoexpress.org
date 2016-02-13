@@ -1,0 +1,743 @@
+body {
+	background-color:#F5F5F5;
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin-top:0px;
+	margin-left:0px;
+}
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2011 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Typodermic
+ * License URL: http://www.fontspring.com/fflicense/typodermic
+ *
+ *
+ */
+@font-face {
+  font-family: 'KenyanCoffeeBold';
+    src: url('../fuentes/kenyan_coffee_bd-webfont.eot');
+    src: url('../fuentes/kenyan_coffee_bd-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fuentes/kenyan_coffee_bd-webfont.woff') format('woff'),
+url('../fuentes/kenyan_coffee_bd-webfont.ttf') format('truetype'),
+url('../fuentes/kenyan_coffee_bd-webfont.svg#KenyanCoffeeBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'HATTEN';
+    src: url('../fuentes/HATTEN.eot');
+    src: url('../fuentes/HATTEN.eot?#iefix') format('embedded-opentype'),
+url('../fuentes/HATTEN.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KenyanCoffeeRegular';
+    src: url('../fuentes/kenyan_coffee_rg-webfont.eot');
+    src: url('../fuentes/kenyan_coffee_rg-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fuentes/kenyan_coffee_rg-webfont.woff') format('woff'),
+url('../fuentes/kenyan_coffee_rg-webfont.ttf') format('truetype'),
+url('../fuentes/kenyan_coffee_rg-webfont.svg#KenyanCoffeeRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#titulo1 {
+	font-family:KenyanCoffeeBold;
+	color: #999;
+	font-size: 33px;
+}
+#titulos2 {
+	font-family: KenyanCoffeeRegular;
+	color: #333;
+	font-size: 33px;
+	text-align:left;
+	margin-left:5px;
+}
+h1{
+	font-family:KenyanCoffeeBold;
+	margin-left:10px;
+	color:#333;
+	text-align: left;
+}
+
+h2{
+	font-family:KenyanCoffeeregular;
+	font-size:30px;
+	color:#CCC;
+	text-align:left;
+	line-height:15px;
+	margin-top:-5px;
+	margin-left:5px;
+
+}
+#blanco{
+	font-family: KenyanCoffeeRegular;
+	color:#FFF;
+	font-size:26px;
+	margin-top: 5px;
+	
+}
+#item{
+	font-family: KenyanCoffeeRegular;
+	font-size:22px;
+	margin-left:none;
+	margin-top:-5px;
+}
+p{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:10;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:20px;
+	text-align:justify;
+
+}
+#p_item{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#666;
+	font-size:11px;
+	margin-left:0px;
+	text-align:left;
+	margin-right:none;
+	margin-bottom:none;
+	margin-top:0px;
+}
+#p_item2{
+	font-family:Verdana, Geneva, sans-serif;
+	color: #333;
+	font-size:13px;
+	margin-left:0px;
+	margin-right:1em;
+	margin-bottom:none;
+	margin-top:0px;
+	text-align: justify;
+	
+}
+#texto_pie {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	color: #999;
+	font-size: 13px;
+	text-align:left;
+	margin-left:10px;
+}
+a{
+	text-decoration:none;
+	color: #CCC;
+	cursor:pointer;
+}
+a:hover{
+	color:#FFF;
+}
+#ver{
+	color:#900;
+	font-size:12px;	
+}
+#ver:hover {
+	color: #F30;
+	font-size:12px;	
+}
+
+
+div.superior {
+	position: absolute;
+	width:100%;
+	height:110px;
+	text-align:center;
+	background-color: #F5F5F5;
+	background-image:url(../images/fondo_sup.png);
+	background-repeat:repeat-x;
+	background-position:top;
+	margin: auto;
+	margin-left:0px;
+	
+
+}
+div.barra {
+	width: 837px;
+	float:right;
+	height: 50px;
+	margin-top: 5px;
+}
+div.interiorsup {
+	width: 1000px;
+	margin:auto;
+	margin-top: 20px;	
+}
+div.logo {
+	width: 158px;
+}
+div.contmenu{
+	position: static;
+	height:23px;
+	width:500px;
+	float:right;
+	margin-right:20px;
+	text-align:center;
+}
+ul.menu{
+	width: 500px;
+	font:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	margin-top: 0px;
+	position:absolute;
+   list-style:none;
+   color:#CCC;
+   padding:2px;
+   
+}
+ul.menu li
+{
+	position:relative; /* Las coordenadas de los ul inferiores serán relativas al <li> que los contiene */
+	background-color:#333;
+	border-radius: 0 0 5 5;
+	text-align:center;
+	padding: 2px;
+	vertical-align:middle;
+}
+ul.menu ul /* Para todos los ul debajo del ul.menu */{
+	position: relative;
+	width: 90px;
+	left:5px;
+	top: 2;
+   display:none;
+   list-style:none;
+   color:#CCC;
+   border-radius: 5px;
+   text-align: left;
+}
+ul.menu li:hover > ul
+{
+   display:block;
+}
+ul.menu> li > ul /* Solo para los ul debajo de los li de primer nivel. */
+{
+	width:100px;
+   position:absolute;
+   left:-40px;
+   top:27px;
+   display:none;
+   list-style:none;
+}
+ul.menu > li /* Sólo para li de primer nivel */
+{
+	display: inline-block;
+	background-image:url(../images/fondo_menu.png);
+	background-repeat:repeat-x;
+	margin-left:1px;
+	margin-right:1px;
+	width:90px;
+	height:24px;
+	font-size:13px;
+	font-weight:bold;
+	vertical-align:middle;
+
+}
+
+ul.menu> li > ul > li /* Solo para los ul debajo de los li de primer nivel. */
+{
+	margin:2px;
+	height: 23px;
+	font-size:12px;
+	font-weight:normal;
+	width:90;
+	vertical-align:middle;
+	background-image:url(../images/fondo_menu.png);
+	background-repeat:repeat-x;
+}
+ul.menu > li:hover /* Sólo para li de primer nivel */
+{
+	background-color: #C00;
+
+}
+ul.menu> li > ul > li:hover /* Solo para los ul debajo de los li de primer nivel. */
+{
+	color:#FFF;
+	background-color:#C00;
+	background-image:url(../images/fondo_menu2.png);
+	background-repeat:repeat-x;
+}
+ul.menu> li > ul > li > a:link{
+	color:#FFF;
+}
+div.buscador{
+	width:800px;
+	margin-left:200;
+	float:left;
+	margin-top: 40px;
+}
+.busqueda{
+	width:500px;
+	float:left;
+	margin-left:10px;
+	
+}
+.ingreso{
+	width:285px;
+	float:right;
+}
+#formulario{
+	
+	height: 30px;
+	
+	text-align:left;
+}
+.seleccion{
+	border:none;
+	font-size:16px;
+	font-weight:bold;
+	color: #999; 
+	background-color: #FFF;
+	border-radius: 5px;
+	padding-left:3px;
+	border-top:thin;
+}
+	
+.spip_bouton {
+   background-color: #b0d0FF;
+   color: black;
+}
+#ingreso{
+	height: 30px;
+	text-align:left;
+}
+div.contenido{
+	width:1000px;
+	margin:auto;
+	margin-top:150px;
+	margin-top:215px;
+	text-align:center;
+}	
+
+div.images{
+	width:960px;
+	height:360px;
+	text-align:center;
+	margin:auto;
+	color:#CCC;
+}
+.columnas{
+	width:580px;
+	height:380px;
+	text-align:center;
+	float:right;
+	margin-right:20px;
+	margin-top:20px;
+	
+}
+.noticias{
+	background-color: #CCC;
+	width:360px;
+	min-height:360px;
+	border-radius:10px;
+	text-align:left;
+	margin-left:20px;
+	margin-bottom:20px;
+	margin-top:20px;
+	background-image:url(../images/linea%20inf%20noticias.png);
+	background-position:bottom;
+	background-repeat:no-repeat;
+
+}
+.noti1{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	width:340px;
+	text-align:justify;
+	margin-bottom:40px;
+	margin-left:10px;
+	
+}
+.numerador{
+	bottom:0px;
+	margin-top: 10px;
+	bottom:0px;
+	color:#CCC;
+	width:340px;
+	text-align:right;
+	margin-left:10px;
+	padding:2px;	
+}
+.numerador2{
+	width:600px;
+	bottom:0px;
+	margin: auto;
+	margin-top: 10px;
+	bottom:0px;
+	text-align:right;
+	padding:2px;
+	color:#333;
+	
+	
+}
+#centrar{
+	text-align:center;
+}
+.feria{
+	background-color: #CCC;
+	width:320px;
+	height:290px;
+	margin-left:0px;
+	margin-top: 0px;
+	margin-bottom:40px;
+	border-radius:10px;
+	float:left;
+	text-align:left;
+
+}
+.contactos{
+	 
+	background-color: #000;
+	width:240px;
+	height:290px;
+	margin-right:0px;
+	
+	margin-bottom:20px;
+	border-radius:10px;
+	float: right;
+
+}
+	
+
+div.inferior {
+	
+	bottom:0px;
+	width:100%;
+	height:200px;
+	text-align:center;
+	background-color: #000;
+	background-image:url(../images/fondo_inf.png);
+	background-repeat:repeat-x;
+	background-position:top;
+}
+div.interiorinf {
+	width: 1000px;
+	margin:auto;
+	padding-top: 5px;
+	}
+div.interiorinfenlaces {
+	width: 380px;
+	margin:auto;
+	float:left;
+	}
+div.interioraliados {
+	width: 615px;
+	margin:auto;
+	float:right;
+	}
+div.panelinf {
+	width: 120px;
+	margin-top:15px;
+	float:left;
+	text-align:left;
+	margin-left:5px;
+}
+div.panelinf2 {
+	width: 120px;
+	margin-top:-1px;
+	margin-left:5px;
+	float:left;
+	border-top: thin;
+	border-top-color: #666;
+	border-top-style:solid;
+	text-align:left;
+	font-size:12px;
+	padding-top:4px;
+}
+div.panelinf3 {
+	width: 600px;
+	margin-top:-1px;
+	margin-left:5px;
+	float:left;
+	border-top: thin;
+	border-top-color: #666;
+	border-top-style:solid;
+	text-align:left;
+	font-size:12px;
+	padding-top:4px;
+}
+.resultados{
+	width:800px;
+	height:900px;
+	background-color:#ccc;
+	margin:auto;
+	margin-bottom:20px;
+	border-radius:20px;
+	padding:5px;
+}
+.item{
+	width:600px;
+	height:150px;
+	background-color:#f5f5f5;
+	margin:auto;
+	border-radius:20px;
+	margin-top:10px;
+}
+.item_admin{
+	width:700px;
+	height:150px;
+	background-color:#f5f5f5;
+	margin:auto;
+	border-radius:20px;
+	margin-top:10px;
+}
+.imagen_item{
+	position:absolute;
+	background-color:#CCC;
+	background-image: url(../images/signo.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	width:100px;
+	height:100px;
+	margin:left;
+	margin-top:25px;
+	margin-left:25px;
+	border-radius:10px;
+}
+.colum1_item{
+	width:210px;
+	margin-left:150px;
+	float:left;
+	margin-top:10px;
+	text-align:left;
+}
+.colum2_item{
+	width:210px;
+	margin-left:370px;
+	margin-top:25px;
+	float:none;
+	position:absolute;
+	text-align:justify;
+	
+}
+.colum3_item{
+	border-left-color: #CCC;
+	border-left-width:medium;
+	border-left-style:solid;
+	width:100px;
+	height:150px;
+	margin-left:600px;
+	margin-top:0px;
+	float:none;
+	position: absolute;
+	text-align:center;
+	font-size:12px;
+	color:#C00;
+	
+}
+
+.empresa{
+	width:960px;
+	height:580;
+	margin:auto;
+	background-color:#CCC;
+	margin-bottom:20px;
+	border-radius: 20px;
+	padding:10px;	
+}
+
+.empresa_sup{
+	width:940px;
+	height:40px;
+	margin:auto;
+	margin-top:10px;
+	background-color:none;	
+}
+
+.empresa_nombre{
+	background-color:#C00;
+	width: 310px;
+	height: 40px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	
+}
+.empresa_menu{
+	width:620px;
+	float:right;
+	background-color:#f5f5f5;
+	height:40px;
+	border-bottom-right-radius:20px;
+	border-top-right-radius:20px;
+	
+}
+.empresa_izq{
+	width:310px;
+	height:550px;
+	margin-left:10px;
+	margin-top:10px;
+	background-color:#f5f5f5;
+	float:left;
+	border-bottom-left-radius:20px;
+	border-top-left-radius:20px;
+	
+}
+.empresa_der{
+	width:620px;
+	height:550px;
+	margin-top:10px;
+	margin-left:330px;
+	background-color:#f5f5f5;
+	border-bottom-right-radius:20px;
+	border-top-right-radius:20px;
+	
+}
+.for_preinscripcion{
+	width:700px;
+	margin:auto;
+	margin-bottom:20px;
+	background-color: #CCC;
+	background-image:url(../images/fondo_form.png);
+	background-position: right;
+	background-repeat:no-repeat;
+	background-attachment: inherit;
+	border-top-left-radius:20px;
+	border-bottom-right-radius:20px;
+	padding:5px;
+	
+}
+table.form {
+	font:Tahoma, Geneva, sans-serif;
+	color:#333;
+	font-size:13px;
+	margin-top:0px;
+	text-align:right;
+}
+td{
+	padding:3px;
+}
+#texto_form{
+	font-family:"Courier New", Courier, monospace;
+	font:"Courier New", Courier, monospace;
+	border-radius:5px;
+	text-align:left;
+	font-size:16px;
+	color: #666;
+}
+
+.logo_empresa{
+	width: 200px;
+	height: 200px;
+	background-color: #999;
+	background-image:url(../images/signogrande.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	margin:auto;
+	margin-top: 20px;
+	border-radius:20px;
+}
+
+.textos_generales{
+	width:700px;
+	margin:auto;
+	margin-bottom:20px;
+	background-color: #CCC;
+	border:medium;
+	border-color:#C00;
+	border-bottom-style:solid;
+	border-top-left-radius:20px;
+	border-bottom-right-radius:20px;
+	padding:5px;
+	
+}
+#identificacion{
+	width:200px;
+	float:left;
+}
+#textidentificacion {
+	color: #CCC;
+	text-align:left;
+	font-size:13px;
+	line-height: none;
+	margin-top: 2px;
+	margin-left:5px;
+}
+#fotoidentificacion{
+	width:40px;
+	height:40px;
+	float:left;
+	margin-left:10px;
+	background-color:#999;
+	margin-top: -10px;
+	border-radius: 5px;
+}
+.titulo_afiliados{
+	text-align:left;
+	margin-left:20px;
+}
+.menu_afiliados{
+	margin-top:-5px;
+	color:#000;
+	text-align:center;
+}
+.menu_afiliados a{
+	color:#000;
+	font-size:12px;
+	font-stretch:wider;
+	font-weight:bold;
+}
+.menu_afiliados a:hover {
+	color: #C00;
+}
+#enviar{
+	width:32px;
+	height:40px;
+	margin-top:0px;
+	margin-left:10px;
+	background-image:url(images/enviar2.png);
+	background-repeat:no-repeat;
+	float:left;
+
+}
+#borrar{
+	width:32px;
+	height:40px;
+	margin-top:0px;
+	margin-left:10px;
+	background-image:url(images/borrar2.png);
+	float:left;
+	background-repeat:no-repeat;
+
+}
+#mensaje{
+	width:50px;
+	height:7px;
+	margin-top:25px;
+	margin-left:10px;
+	float:left;
+	background-repeat:no-repeat;
+
+}
+#contenedor{
+	width:250px;
+	height:45px;
+	margin-top:2px;
+	margin-left:200px;
+	
+	
+}
+#lupa{
+	width:30px;
+	height:30px;
+	margin-top:-25px;
+	margin-left:450px;
+	background-image:url(images/btn_busqueda.png);
+	
+	
+	
+}

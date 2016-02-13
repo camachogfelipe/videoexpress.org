@@ -1,0 +1,42 @@
+#detalle_proyecto
+{
+  color: #FFF;
+  font-family: ROCK;
+  font-size: medium;
+}
+
+#DT_logo
+{
+  float: left;
+  min-width: 150px;
+  min-height: 150px;
+  margin-right: 5px;
+}
+
+#DT_titulo
+{
+  color: #D2FFE1;
+  font-weight: bolder;
+}
+
+#DT_tabla
+{
+  table-layout: fixed;
+  background-color: #003333;
+  border-collapse: collapse;
+}
+
+#DT_tabla, #DT_tabla td
+{
+  border: 1px dotted #00FF00;
+}
+
+#DT_tabla td
+{
+  padding: 5px;
+}
+
+#DT_tabla td ul li
+{
+  margin-left: 15px;
+}

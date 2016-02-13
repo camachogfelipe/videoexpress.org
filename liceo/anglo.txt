@@ -1,0 +1,70 @@
+-- phpMyAdmin SQL Dump
+-- version 2.11.9.2
+-- http://www.phpmyadmin.net
+--
+-- Servidor: localhost
+-- Tiempo de generación: 02-04-2009 a las 12:04:58
+-- Versión del servidor: 5.0.67
+-- Versión de PHP: 5.2.6
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Base de datos: `anglo`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `boletin`
+--
+
+CREATE TABLE IF NOT EXISTS `boletin` (
+  `No` int(255) NOT NULL,
+  `boletin` text character set latin1 collate latin1_spanish_ci NOT NULL,
+  PRIMARY KEY  (`No`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Volcar la base de datos para la tabla `boletin`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `cat_usr`
+--
+
+CREATE TABLE IF NOT EXISTS `cat_usr` (
+  `usuario_admin` varchar(150) character set latin1 collate latin1_spanish_ci NOT NULL,
+  `clave_acceso` varchar(150) character set latin1 collate latin1_spanish_ci NOT NULL,
+  `correo` varchar(150) character set latin1 collate latin1_spanish_ci NOT NULL,
+  `token` varchar(150) character set latin1 collate latin1_spanish_ci NOT NULL,
+  PRIMARY KEY  (`usuario_admin`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Volcar la base de datos para la tabla `cat_usr`
+--
+
+INSERT INTO `cat_usr` (`usuario_admin`, `clave_acceso`, `correo`, `token`) VALUES
+('anglo', 'admin', 'admin@anglo.com', '0');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `emails`
+--
+
+CREATE TABLE IF NOT EXISTS `emails` (
+  `No` bigint(255) NOT NULL,
+  `nombre` varchar(150) character set latin1 collate latin1_spanish_ci NOT NULL,
+  `email` varchar(150) character set latin1 collate latin1_spanish_ci NOT NULL,
+  PRIMARY KEY  (`No`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1;
+
+--
+-- Volcar la base de datos para la tabla `emails`
+--
+

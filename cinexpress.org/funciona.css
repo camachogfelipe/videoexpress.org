@@ -1,0 +1,23 @@
+body{	
+	text-align: justify;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#CCC;
+	
+}
+@font-face {
+  font-family: 'Amienne';
+  src: url('fuentes/Amienne.eot'); /* for IE */
+  src: local('Amienne.ttf'),
+    url("fuentes/Amienne.otf") format("opentype"),
+    url("fuentes/Amienne.ttf") format("TrueType"); /* these are for other browsers */
+}
+
+.parrafo_descripcion{
+	color:#333;
+}
+.titulo{
+	color:#900;
+	font-family:Amienne;
+	font-size:30px;
+}

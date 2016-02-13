@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<player>
+<video>
+   <videoList>
+   <source>demo_files/art.flv</source>
+	<source>demo_files/baby.flv</source>
+	<source>demo_files/reto.flv</source>
+    <source>demo_files/progreso.flv</source>
+	<source>demo_files/soul.flv</source>
+    <source>demo_files/grace.flv</source>
+    <source>demo_files/save.flv</source>
+    <source>demo_files/jerusalem.flv</source>
+    <source>demo_files/narnia3.flv</source>
+    <source>demo_files/what.flv</source>
+	<source>demo_files/beyond.flv</source>
+	<source>demo_files/dandelion.flv</source>
+	<source>demo_files/gift.flv</source>
+	<source>demo_files/spear.flv</source>
+	<source>demo_files/the_last.flv</source>
+	<source>demo_files/the_list.flv</source>
+	  
+   </videoList>
+   <videoAdsList>
+  	  <source>demo_files/ce2_1.flv</source>
+      <source>demo_files/ce2_1.flv</source>
+      <source>demo_files/ce2_1.flv</source>
+      <source>demo_files/ce2_1.flv</source>
+      <source>demo_files/ce2_1.flv</source>
+      <source>demo_files/ce2_1.flv</source>
+      <source>demo_files/ce2_1.flv</source>
+      <source>demo_files/ce2_1.flv</source>
+	  <source>demo_files/ce2_1.flv</source>
+	  <source>demo_files/ce2_1.flv</source>
+	  <source>demo_files/ce2_1.flv</source>
+      <source>demo_files/ce2_1.flv</source>
+      <source>demo_files/ce2_1.flv</source>
+      <source>demo_files/ce2_1.flv</source>
+	  <source>demo_files/ce2_1.flv</source>
+	  <source>demo_files/ce2_1.flv</source>
+   </videoAdsList>
+   
+   <videoAdsLinkList>
+     
+      <source></source>
+      <source></source>
+      <source></source>
+      <source></source>
+      <source></source>
+      <source></source>
+   </videoAdsLinkList>
+   
+   <thumbnailList>
+   <source>demo_files/art.jpg</source>
+   	<source>demo_files/baby.jpg</source>
+      <source>demo_files/reto.jpg</source>
+      <source>demo_files/progreso.jpg</source>
+      <source>demo_files/soul.jpg</source>
+      <source>demo_files/grace.jpg</source>
+      <source>demo_files/salvar.jpg</source>
+      <source>demo_files/jerusalem.jpg</source>
+	  <source>demo_files/preview2.jpg</source>
+      <source>demo_files/what.jpg</source>
+	  <source>demo_files/beyond.jpg</source>
+	  <source>demo_files/dandelion.jpg</source>
+	  <source>demo_files/gift.jpg</source>
+	  <source>demo_files/spear.jpg</source>
+	  <source>demo_files/the_last.jpg</source>
+	  <source>demo_files/the_list.jpg</source>
+   </thumbnailList>
+   
+   <smalldescrPlayList>
+   <description><![CDATA[El Arte del Matrimonio]]></description>
+   <description><![CDATA[October Baby]]></description>
+   <description><![CDATA[Reto de Valientes]]></description>
+      <description><![CDATA[Progreso del peregrino]]></description>
+      <description><![CDATA[Soul Surfer]]></description>
+      <description><![CDATA[Grace Card]]></description>
+      <description><![CDATA[Salvar una Vida]]></description>
+      <description><![CDATA[Jerusalem Countdown]]></description>
+	  <description><![CDATA[Cronicas de Narnia:La travesia del viajero del alba]]></description>
+	  <description><![CDATA[What if...]]></description>
+	  <description><![CDATA[Tras las puertas del esplendor]]></description>
+	  <description><![CDATA[Como Diente de León]]></description>
+	  <description><![CDATA[El ultimo regalo]]></description>
+	  <description><![CDATA[Punta de Lanza]]></description>
+	  <description><![CDATA[The last sin easter]]></description>
+	  <description><![CDATA[The List]]></description>
+
+
+   </smalldescrPlayList>
+   <smallthumbPlayList>
+   <source>demo_files/art_100x58.jpg</source>
+   	<source>demo_files/baby_100x58.jpg</source>
+      <source>demo_files/reto_100x58.jpg</source>
+      <source>demo_files/progreso_100x58.jpg</source>
+      <source>demo_files/soul_100x58.jpg</source>
+      <source>demo_files/grace_100x58.jpg</source>
+      <source>demo_files/salvar_100x58.jpg</source>
+      <source>demo_files/jerusalem_100x58.jpg</source>
+	  <source>demo_files/thumbnail1_100x58.jpg</source>
+      <source>demo_files/what_100x58.jpg</source>
+	  <source>demo_files/beyond_100x58.jpg</source>
+	  <source>demo_files/dandelion_100x58.jpg</source>
+	  <source>demo_files/gift_100x58.jpg</source>
+	  <source>demo_files/spear_100x58.jpg</source>
+	  <source>demo_files/the_last_100x58.jpg</source>
+	  <source>demo_files/the_list_100x58.jpg</source>
+   </smallthumbPlayList>
+   <videoSubtitleList>
+    <source></source>
+      <source></source>
+      <source></source>
+      <source></source>
+      <source></source>
+      <source></source>
+      <source></source>
+      <source></source>
+   </videoSubtitleList>
+   <videoLinkList>
+      <source></source>
+      <source></source>
+      <source></source>
+      <source></source>
+      <source></source>
+      <source></source>
+      <source></source>
+   </videoLinkList>
+   <videoLinkTargetList>
+      <source></source>
+      <source></source>
+      <source></source>
+      <source></source>
+      <source></source>
+      <source></source>
+      <source></source>
+   </videoLinkTargetList>
+   <videoAdsLinkTargetList>
+      <source></source>
+      <source></source>
+      <source></source>
+      <source></source>
+      <source></source>
+      <source></source>
+      <source></source>
+   </videoAdsLinkTargetList>
+   
+</video>
+</player>

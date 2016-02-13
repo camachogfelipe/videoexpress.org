@@ -1,0 +1,330 @@
+*{ margin: 0; padding: 0; }*
+
+@-viewport {  
+    width: device-width;  
+}  
+
+body { 
+	font: 18px Helvetica, Arial, sans-serif;
+	margin: 5px 5px 5px 5px; 
+	font: .74em "Trebuchet MS", Arial, Sans-Serif; 
+	color: #444; 
+	text-size-adjust: auto;
+}
+
+/*body {
+	font-size: 11px;
+	font-family: arial, helvetica, sans-serif;
+}*/
+
+
+
+div { 
+	margin-top: 20px;
+	padding: 5px 5px 5px 5px; 
+}
+
+img
+{
+	max-width: 90%;
+	top: 10%;
+	left: 10%;
+}
+
+
+th {
+/*	font-size: 12px; */
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px; 
+	background-color:#0000FF;
+	text-align:center;
+	color:#ffffff;
+	font-weight:bold;
+	font-family: Raavi, arial, helvetica, sans-serif;
+	text-size-adjust: auto;
+}
+
+td {
+/*	font-size: 11px; */
+	vertical-align:top;
+	font-family: Raavi, arial, helvetica, sans-serif;
+	text-size-adjust: auto;
+}
+
+nav select {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  nav ul     { display: none; }
+  nav select { display: inline-block; }
+}
+
+input[type="text"] {
+	font: 18px Helvetica, Arial, sans-serif;
+	padding: 15px 15px 15px 15px;
+	text-align:center;
+	width: 80%;
+}
+
+input[type="password"] {
+	font: 18px Helvetica, Arial, sans-serif;
+	padding: 15px 15px 15px 15px;
+	text-align:center;
+	width: 80%;
+}
+
+input[type="submit"]{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-moz-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-ms-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-o-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	border: 1px solid #c8c8c8;
+	color: #333;
+	font: 18px Helvetica, Arial, sans-serif;
+	margin: 0 0 10px;
+	text-decoration:underline;
+	padding: 15px 15px 15px 15px;
+	/*width: 90%;*/
+	/*background-color:#6DBCDB;*/
+}
+
+select {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+
+	-webkit-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-moz-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-ms-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-o-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+
+	transition: all 0.5s ease;
+	border: 1px solid #c8c8c8;
+	color: #777;
+	font: 13px Helvetica, Arial, sans-serif;
+	margin: 0 0 10px;
+	padding: 15px 10px 15px 40px;
+	width: 90%;
+}
+
+
+input[type="button"]{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-moz-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-ms-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-o-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	border: 1px solid #c8c8c8;
+	color: #333;
+	font: 18px Helvetica, Arial, sans-serif;
+	margin: 0 0 10px;
+	text-decoration:underline;
+	padding: 15px 15px 15px 15px;
+	/*width: 90%;*/
+	/*background-color:#6DBCDB;*/
+}
+
+A:link {
+	text-decoration: none;
+	color: #000000;
+}
+
+A:visited {
+	text-decoration: none;
+	color: #000000;
+}
+
+A:active {
+	text-decoration: none;
+	color: #000000;
+}
+
+A:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+#cumple
+{
+	border: 5px solid #000000;
+}
+
+#cumple table
+{
+	background-color: #000000;
+	color: White;
+	font-family: arial, helvetica, sans-serif;
+}
+
+#cumple th
+{
+	border: 11px solid #000000;
+	background-color: #000000;
+	font-size:14px;
+	height:20px;
+	color: White;
+	font-family: arial, helvetica, sans-serif;
+}
+
+#cumple td
+{
+	color:#990000;
+}
+
+#hojadevida table
+{
+	background-color:#E8E8E8;
+	padding:3px;
+}
+
+#hojadevida th
+{
+	background-color:#E8E8E8;
+	padding:3px;
+}
+
+#hojadevida td
+{
+	font-weight:bold;
+	color:#333333;
+	font-size:12px;
+	border:solid #E8E8E8 5px;
+	border-right:none;
+	border-left:none;
+	background-color:#ffffff;
+	padding:3px;
+}
+
+#footer
+{
+	font-weight: bold;
+	color:#000;
+}
+
+#lightbox{
+	background-color:#eee;
+	padding: 11px;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+	width:200px;
+	}
+#lightboxDetails{
+	/*font-size: 0.8em;*/
+	font-size: 12px;
+	padding-top: 0.4em;
+	}	
+#lightboxCaption{
+	width:200px;
+	float: left;
+}
+#keyboardMsg{
+	width:100px;
+	float: right;
+}
+#closeButton{ top: 5px; right: 5px; }
+
+#lightbox img{ border: none; clear: both;} 
+#overlay img{ border: none; }
+
+#overlay{ background-image: url('images/overlay.png'); }
+
+* html #overlay{
+	background-color: #333;
+	background-color: transparent;
+	background-image: url("images/blank.gif");
+	}
+
+#livesearch
+{
+	background-color:#ffffff;
+	color:#000000;
+	margin:0px;
+	width:250px; 
+	position:absolute;
+	float:right;
+}
+#livesearch a
+{
+	text-decoration: none;
+}
+
+#livesearch a:link
+{
+	color: #000;
+}
+
+#livesearch a:visited
+{
+	color: #000;
+}
+
+#livesearch a:hover
+{
+	text-decoration:underline;
+}
+
+#txt1
+{ 
+  margin:0px;
+}
+
+#stats
+{
+	border: 5px solid #000000;
+}
+
+#stats table
+{
+	background-color: #000000;
+	color: White;
+	font-family: arial, helvetica, sans-serif;
+}
+
+#stats th
+{
+	border: 11px solid #000000;
+	background-color: #000000;
+	font-size:14px;
+	height:20px;
+	color: White;
+	font-family: arial, helvetica, sans-serif;
+}
+
+#stats td
+{
+	color:#000000;
+	font-size:14px;
+	font-family: arial, helvetica, sans-serif;
+	border: 1px solid #000000;
+	height:20px;
+}
+

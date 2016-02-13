@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+   <showMainBar>true</showMainBar>
+   <skin>Windows Light</skin>
+   <mainbarAutoHide>true</mainbarAutoHide>
+   <mainbar_Alpha>100</mainbar_Alpha>
+   <mainbar_Top>#333333</mainbar_Top>
+   <mainbar_Bottom>#000000</mainbar_Bottom>
+   <mainbar_Detach>false</mainbar_Detach>
+   <mainbar_TopPadding>20</mainbar_TopPadding>
+   <loadSkin>true</loadSkin>
+   <fixedWidth>600</fixedWidth>
+   <fixedHeight>300</fixedHeight>
+   <videoProportions>true</videoProportions>
+   <autoSize>true</autoSize>
+   <roundedCorners>true</roundedCorners>
+   <roundedCornersRadius>10</roundedCornersRadius>
+   <videoBackground>true</videoBackground>
+   <videoBackgroundColor>#000000</videoBackgroundColor>
+   <autoPlay>false</autoPlay>
+   <autoPlayPlayList>false</autoPlayPlayList>
+   <loop>false</loop>
+   <videoDeblocking>0</videoDeblocking>
+   <dualThresholdBuffering>true</dualThresholdBuffering>
+   <bufferTime>3</bufferTime>
+   <playerFilesPath>Player_files/</playerFilesPath>
+   <skinFolderPath>Player_files/skin</skinFolderPath>
+   <configXMLPath>Player_files/config.xml</configXMLPath>
+   <playListXML_Path>Player_files/playList.xml</playListXML_Path>
+   <buttonsColor>#FFFFFF</buttonsColor>
+   <volumeAudio>60</volumeAudio>
+   <seekBar_color>#0000FF</seekBar_color>
+   <showBigPlayButton>true</showBigPlayButton>
+   <buttonToolTips>true</buttonToolTips>
+   <showNowPlaying>true</showNowPlaying>
+   <textColor>#FFFFFF</textColor>
+   <textBGColor>#000000</textBGColor>
+   <fontFamily>Arial</fontFamily>
+   <fontSize>11</fontSize>
+   <emailSubjectTitle>cineexpress</emailSubjectTitle>
+   <emailBodyText>Excelente película</emailBodyText>
+   <buttonToolTipsList>stop,play,pause,played time / all time,sound volume,playlist,html code and link,send to friend,video properties,fullscreen/new window mode</buttonToolTipsList>
+   <showEmailButton>false</showEmailButton>
+   <showEmbedButton>false</showEmbedButton>
+   <showFullscreenButton>true</showFullscreenButton>
+   <showNewWindowButton>false</showNewWindowButton>
+   <showPlayListButton>false</showPlayListButton>
+   <showTimerButton>true</showTimerButton>
+   <showVideoPropButton>false</showVideoPropButton>
+   <showVolumeButton>true</showVolumeButton>
+   <smallthumbWidth>100</smallthumbWidth>
+   <smallthumbHeight>58</smallthumbHeight>
+   <thumbnailCarousel>false</thumbnailCarousel>
+   <thumbnailCarouselOnPlay>false</thumbnailCarouselOnPlay>
+   <addexterpl>Carousel</addexterpl>
+   <plbgwmode>true</plbgwmode>
+   <plbgcolor>#FF9900</plbgcolor>
+   <plwidth>600</plwidth>
+   <plheight>150</plheight>
+   <subtitleFontAlign>Center</subtitleFontAlign>
+   <subtitleFontFamily>Arial</subtitleFontFamily>
+   <subtitleFontBold>false</subtitleFontBold>
+   <subtitleFontColor>#FFFFFF</subtitleFontColor>
+   <subtitleFontItalic>true</subtitleFontItalic>
+   <subtitleFontSize>20</subtitleFontSize>
+   <showSubtitleFontBG>true</showSubtitleFontBG>
+   <subtitleFontBGColor>#000000</subtitleFontBGColor>
+   <GoogleAnalytics>false</GoogleAnalytics>
+   <GAasynchronousTrackingCode>true</GAasynchronousTrackingCode>
+   <GAplayerLoaded>true</GAplayerLoaded>
+   <GApreRollAdLoaded>true</GApreRollAdLoaded>
+   <GAvideoPlay>true</GAvideoPlay>
+   <GAvideoPause>true</GAvideoPause>
+   <GAmostViewedVideos>true</GAmostViewedVideos>
+   <GAvideoStop>true</GAvideoStop>
+   <sharingButtons>true</sharingButtons>
+   <enableFlashEvent>true</enableFlashEvent>
+   <htmlButtons>false</htmlButtons>
+   <wowzaSecureToken>false</wowzaSecureToken>
+   <smallthumbCateg>zyaliex</smallthumbCateg>
+   <ownerLogoIMGPath>demo_files/owner_logo.png</ownerLogoIMGPath>
+   <ownerLogoAlpha>80</ownerLogoAlpha>
+   <ownerLogoLink>www.webstunning.com</ownerLogoLink>
+   <ownerLogoLinkTarget>_blank</ownerLogoLinkTarget>
+   <ownerLogoAlign>Bottom right</ownerLogoAlign>
+   <rightClickMenuCopyright>WebStunning FLV Player</rightClickMenuCopyright>
+   <rightClickMenuCopyrightLink>http://webstunning.com</rightClickMenuCopyrightLink>
+   <rightClickMenuCopyrightTarget>_blank</rightClickMenuCopyrightTarget>
+   <rightClickMenuPLCopyright>WebStunning FLV PlayList</rightClickMenuPLCopyright>
+   <rightClickMenuPLCopyrightLink>http://webstunning.com</rightClickMenuPLCopyrightLink>
+   <rightClickMenuPLCopyrightTarget>_blank</rightClickMenuPLCopyrightTarget>
+   <objectID>WSplayer</objectID>
+</config>

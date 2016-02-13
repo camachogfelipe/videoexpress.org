@@ -1,0 +1,126 @@
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+#error
+{
+  border-top: 1px solid #CC0033;
+  border-bottom: 1px solid #CC0033;
+  background-color: #FFCACA;
+  color: #CC0033;
+  font-weight: bold;
+}
+
+#informacion_gral, a
+{
+  color: #E65200;
+  font-weight: bold;
+}
+
+#info
+{
+  color: #FFF;
+}
+
+#encabezado_tablas
+{
+  background-color: #003366;
+  color: #FFF;
+  font-weight: bold;
+}
+
+#tabla, #tabla td
+{
+  border: 1px dotted #CCC;
+}
+
+a
+{
+  color: #FFF;
+  background-color: #E65200;
+  text-decoration: none;
+}
+
+a:link, a:visited
+{
+  color: #FFF;
+}
+
+a:hover
+{
+  color: #000;
+  background-color: #FFF;
+  font-weight: bold;
+}
+
+a:active {
+  color: #FFF;
+  background-color: #FFF;
+  font-weight: bold;
+}
+
+#index
+{
+  position: absolute;
+  top: 50%;
+  margin-top: -220px;
+  left: 50%;
+  margin-left: -318.5px;
+}
+
+#formulario label.checked {
+  background-image:url(../../01800/imagenes/checked.png) no-repeat 0px 0px;
+}
+
+#menu_notired
+{
+  float: left;
+  width: 190px;
+  max-width: 190px;
+  background-color: #E65200;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px;
+  list-style: none;
+}
+
+#menu_notired li a:hover, #menu_notired li a.active, #resaltado
+{
+  color: #FFFF33;
+  background-color: #E65200;
+  list-style: none;
+}
+
+#contenido_notired
+{
+  margin-left: 210px;
+  background-color: #E65200;
+  color: #FFF;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#contenido_notired table, #contenido_notired table tr, #contenido_notired table tr td
+{
+  border: 1px dotted #999;
+}
+
+#contenido_notired table thead
+{
+  background-color: #FFF;
+  font-weight: bold;
+  text-align: center;
+}
+
+#contenido_notired table tbody
+{
+  background-color: #FFFFCC;
+}
+
+#contenido_notired table tbody tr:hover
+{
+  background-color: #CCFF99;
+}

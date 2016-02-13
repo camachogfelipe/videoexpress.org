@@ -1,0 +1,210 @@
+body
+{
+  margin: 0px 0px 0px 0px;
+  font-family: arial;
+}
+
+/*seccion body iframes*/
+#sec_body_frames
+{
+  margin: 30px 0px 0px 0px;
+  background: url(imagenes/Imagenes de edicion/alpha2.png) 100% repeat;
+}
+
+/*body index*/
+#body_index
+{
+  background-image: url(imagenes/texturas/DSC07685.jpg);
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-attachment: scroll;
+}
+
+/*mootabs*/
+.mootabs_title {
+    list-style-image: none;
+    list-style-type: none;
+    margin: 0px;
+	margin-left: 0px;
+    padding-left: 0px;
+    width: 904px;
+    height: 50px;
+}
+.mootabs_title li {
+	display: inline;
+	margin: -2px;
+    /*background: url(menu.png) 100% no-repeat;
+    padding: 0px 0px 0px 0px;
+    margin-right: 0px;*/
+    cursor: pointer;
+	/*width: 102px;*/
+    height: 50px;
+}
+
+.mootabs_panel {
+    display: none;
+	margin-left: 0px;
+	margin: 0px;
+    position: static;
+    width: 100%;
+    top: 0px;
+    clear: both;
+    overflow: auto;
+    padding: 0px;
+}
+.mootabs_panel.active {
+    display: block;
+}
+
+/*menu derecho*/
+.menu_derecho
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.menu_derecho a
+{
+  color: #000;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.menu_derecho a:hover
+{
+  color: #0066FF;
+}
+
+.menu_derecho a:active
+{
+  color: #0066FF;
+}
+
+/*general*/
+a
+{
+  color: #FFF;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#informacion_gral
+{
+  color: #0000CC;
+  font-weight: bold;
+}
+
+#resultados
+{
+  font-size: 12px;
+  float: left;
+}
+
+.margen_resultados
+{
+  margin: 0px 3px 10px 0px
+}
+
+#paginacion
+{
+  clear: both;
+  margin-top: 0px;
+  text-align: center;
+}
+
+#numero_pagina
+{
+  color: #000;
+  background-color: #CCC;
+  border: 1px dotted #BBB;
+  width: 20px;
+}
+
+
+/*div imagen flotante derecha en paneles*/
+#div_panel
+{
+  float: right;
+  margin-top: 0px;
+  margin-right: 0px;
+  width: 100px;
+  height: 100px;
+  border: 1px dotted #000;
+}
+
+/*creditos*/
+#creditos
+{
+  /*clear: both;*/
+  background: url(imagenes/Imagenes de edicion/alpha.png) 100% repeat;
+  margin-top: -20px;
+  border: 1px dotted #FFF;
+  color: #EEEEEE;
+  text-align: center;
+  font-size: 12px;
+}
+/*resultados de la promocion*/
+#resultados_promocion
+{
+  color: #FFF;
+  font-size: 12px;
+}
+
+#precio_promo
+{
+  text-decoration: line-through;
+  color: #FF3300
+}
+
+#inf_gral
+{
+  color: #FFFF99;
+  font-weight: bold;
+}
+
+/*texto obligatorio*/
+#obligatorio
+{
+  color: #CC0000;
+}
+
+#carrito
+{
+  color: #FFFFFF;
+}
+
+#preguntas_frecuentes
+{
+  color: #6699FF;
+}
+
+#enlace_pf
+{
+  margin-top: 10px;
+}
+
+
+#enlace_pf a
+{
+  color: #6699CC;
+  text-decoration: none;
+  text-align: center;
+  border-style: none none none none;
+  border: 0px;
+  font-weight: bold;
+}
+
+#enlace_pf a:link, #enlace_pf li a:visited {
+        color: #6699CC;
+        text-align: center;
+        border-style: none none none none;
+        border: 0px;
+        }
+
+#enlace_pf a:hover {
+        color: #000000;
+        background-color: transparent;
+        text-align: center;
+        border-style: none none none none;
+        border: 0px;
+        }

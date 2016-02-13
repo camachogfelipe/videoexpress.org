@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="CIEC style.css"/>
+<title>MINISTERIOS ONLINE</title>
+<script>
+
+function valida_envio(){
+
+
+		document.formulario.action = 'enviar_contacto.php';
+		document.formulario.submit();
+	
+	
+}
+</script>
+</head>
+
+<body style="margin-top:20px">
+              <div >
+              	<div class="for_preinscripcion">
+                  <h3 id="titulos2" style="text-align:right; margin-top:-3px">Contáctenos</h3>
+                  <img src="images/img_contacto.jpg" vspace="10" style="margin-top:-28px;"  />
+     <form name="formulario" action="enviar_contacto.php" method="post">
+                  <table class="form" style="margin-top:10px;" width="680" border="0" cellspacing="0" cellpadding="0" summary="Formulario para contacto con la CIEC">
+  <tr>
+    <td width="236">Nombre </td>
+    <td width="444" align="left"><input name="nombre" id="nombre" maxlength="100" width="300" type="text" /></td>
+    
+  </tr>
+  <tr>
+    <td>Empresa</td>
+    <td align="left"><input name="empresa" id="empresa" maxlength="100" width="300" type="text"></td>
+   
+  </tr>
+   <td>País</td>
+    <td align="left"><input name="pais" type="text" id="pais" maxlength="100" width="300" /></td>
+  </tr>
+  <tr>
+    <td>Departamento</td>
+    <td align="left"><input name="departamento" type="text" id="departamento"   /></td>
+  </tr>
+  <tr>
+    <td>Ciudad</td>
+    <td align="left"><input name="ciudad" type="text" id="ciudad"   /></td>
+  </tr >
+  <tr>
+    <td>Dirección</td>
+    <td align="left"><input name="direccion" type="text" id="direccion"  /></td>
+  </tr>
+  <tr>
+    <td>Teléfono</td>
+    <td align="left"><input name="telefono" type="text" id="telefono"   /></td>
+  </tr>
+  <tr>
+    <td>Celular</td>
+    <td align="left"><input name="celular" type="text" id="celular"  /></td>
+  </tr>
+  <tr>
+    <td>E-mail</td>
+    <td align="left"><input name="mail" type="text" id="mail"   /></td>
+  </tr>
+  <tr>
+    <td>Página Web</td>
+    <td align="left"><input name="web" type="text" id="web"   /></td>
+  </tr>
+        
+		
+  <tr>
+    <td>Asunto</td>
+    <td align="left">
+    <input name="Asunto" type="radio" value="info" checked="checked"/>Información
+<input name="Asunto" type="radio" value="afiliacion" />Afiliación
+<input name="Asunto" type="radio" value="queja"  />Queja o reclamo
+<input name="Asunto" type="radio" value="sugerencia"  />Sugerencia
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Mensaje</td>
+    <td align="left"><textarea name="mensaje1" id="mesaje1" rows="5" cols="50"></textarea></td>
+  </tr>
+   <tr>
+    <td colspan="2" align="center"><br />
+    <input name="enviar" type="image" src="images/enviar2.png" alt="Enviar" align="middle"  hspace="5"  onclick="valida_envio();"/> 
+    <input name="enviar" type="image" src="images/borrar2.png" alt="Borrar" align="middle" hspace="5" /> 
+    </td>
+  </tr>
+</table>
+
+                  </form>
+              	</div>
+   		 
+   		  </div>
+    	

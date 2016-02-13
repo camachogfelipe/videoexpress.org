@@ -1,0 +1,57 @@
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+#error
+{
+  border-top: 1px solid #CC0033;
+  border-bottom: 1px solid #CC0033;
+  background-color: #FFCACA;
+  color: #CC0033;
+  font-weight: bold;
+}
+
+#informacion_gral, a
+{
+  color: #0000CC;
+  font-weight: bold;
+}
+
+#encabezado_tablas
+{
+  background-color: #003366;
+  color: #FFF;
+  font-weight: bold;
+}
+
+#tabla, #tabla td
+{
+  border: 1px dotted #CCC;
+}
+
+a
+{
+  color: #0000CC;
+  text-decoration: none;
+}
+
+a:link, a:visited
+{
+  color: #0000CC;
+}
+
+a:hover
+{
+  color: #FFF;
+  background-color: #003366;
+  font-weight: bold;
+}
+
+a:active {
+  color: #FFF;
+  background-color: #003366;
+  font-weight: bold;
+}
+

@@ -1,0 +1,166 @@
+#form_login
+{
+  width: 360px;
+  position: fixed;
+  left: 50%;
+  margin-left: -186px;
+  margin-top: 50px;
+  overflow: hidden;
+  background-color: #159149;
+  color: #FFF;
+  padding: 6px;
+}
+
+#texto
+{
+  float: left;
+  width: 50%;
+}
+
+.texto
+{
+  margin-top: 5px;
+}
+
+#btnsubmit
+{
+  clear: both;
+  text-align: center;
+  font-family: ForteMT;
+  font-size: 20px;
+}
+
+#btnsubmit a
+{
+  color: #D9E021;
+  text-decoration: none;
+}
+
+#btnsubmit a:hover
+{
+  color: #F9F900;
+}
+
+#error
+{
+  border: 1px solid #FC4B4B;
+  background-color: #FD6F6F;
+  margin-bottom: 5px;
+}
+
+.salir
+{
+  min-height: 35px;
+  max-height: 35px;
+  color: #FFF;
+  text-align: right;
+}
+
+#bienvenida
+{
+  min-height: 66px;
+  max-height: 66px;
+  color: #FFF;
+  margin-top: 85px;
+}
+
+#bnvnombre
+{
+  font-family: ForteMT;
+  font-size: 38px;
+}
+
+#bnvfechas
+{
+  font-family: ROCK;
+  font-size: large;
+}
+
+.cuerpo
+{
+  padding: 7px;
+}
+
+#menu_contenido h3
+{
+  font-family: ROCK;
+  font-size: large;
+  cursor: pointer;
+}
+
+#submenu_contenido, #submenu, #submenu1
+{
+  font-size: medium;
+  color: #FFF;
+  cursor: pointer;
+}
+
+#submenu_contenido:hover, #submenu_contenido.active, #submenu li:hover, #submenu li.active, #submenu1 li:hover, #submenu1 li.active
+{
+  color: #990000;
+}
+
+#submenu
+{
+  float: left;
+  width: 200px;
+  list-style: none;
+  background-color: #FFCC66;
+  border: 1px dotted #CCC;
+}
+
+#submenuder
+{
+  margin-left: 210px;
+  border: 1px dotted #AAAAAA;
+  min-height: 200px;
+  overflow: hidden;
+}
+
+#submenu1
+{
+  width: 200px;
+  list-style: none;
+  background-color: #FFCC66;
+}
+
+#submenuder1
+{
+  margin-top: 10px;
+  min-height: 200px;
+  overflow: hidden;
+}
+
+#caja
+{
+  overflow: hidden;
+  list-style: none;
+}
+
+#menu_izq_editorial
+{
+  max-width: 148px;
+}
+
+#menu_der_editorial
+{
+  text-align: center;
+  max-width: 26px;
+  min-width: 26px;
+}
+
+#submenu2 tr:hover, thead, tbody tr:hover
+{
+  background-color: #FFFFCC;
+}
+
+td
+{
+  text-align: justify;
+  border: 1px dotted #CCC;
+}
+
+#upload_div
+{
+  color: #FFF;
+}

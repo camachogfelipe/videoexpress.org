@@ -1,0 +1,48 @@
+/* CSS Document */
+.menu a{
+	text-decoration:none;
+	color:white;
+}
+.menu{
+    overflow: hidden;
+    padding-left: 50px;
+}
+.menu ul, .menu li{
+	list-style:none;
+}
+.menu li{
+	height:230px;
+	float:left;
+	width:130px;
+	overflow:hidden;
+	display:inline;
+}
+.menu li a{
+	float:left;
+	vertical-align:top;
+	/*position:absolute;*/
+}
+.menu li p{
+	vertical-align:top;
+    margin-left: 132px;
+	text-align:left;
+	/*margin-left:0;*/
+	margin-top:0;
+	width:105px;
+    max-width: 110px;
+	color:#FFF;
+    min-height: 180px;
+	display:none;
+}
+.menu li p a:hover
+{
+  background-color: #000;
+  filter:alpha(opacity=50);
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+  color: #FFF;
+}
+#main_menu
+{
+  text-align: left;
+}

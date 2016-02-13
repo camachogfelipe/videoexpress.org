@@ -1,0 +1,23 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<title>Imagine marita</title>
+<!-- this is the popup file which displays the ficture full size and also resizes the window to it -->
+
+<script language="javascript">
+var arrTemp=self.location.href.split("?");
+var picUrl = (arrTemp.length>0)?arrTemp[1]:"";
+var NS = (navigator.appName=="Netscape")?true:false;
+
+function FitPic() {
+	iWidth = (NS)?window.innerWidth:document.body.clientWidth;
+	iHeight = (NS)?window.innerHeight:document.body.clientHeight;
+	iWidth = document.images[0].width - iWidth;
+	iHeight = document.images[0].height - iHeight;
+	window.resizeBy(iWidth, iHeight);
+	self.focus(); };
+</script>
+</head><body onload="FitPic();" topmargin="0" leftmargin="0" bgcolor="#000000" marginheight="0" marginwidth="0">
+
+<script language="javascript">document.write( "<img src='" + picUrl + "' border=0>");</script><img src="La%20Oracion%20De%20Jabes_files/168.jpg" border="0">
+</body></html>
