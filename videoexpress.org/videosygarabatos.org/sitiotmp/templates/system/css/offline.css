@@ -1,0 +1,79 @@
+﻿/**
+ * CSS Document for offline page
+ * @version $Id: offline.css 10387 2008-06-03 10:59:16Z pasamio $
+ * @package Joomla
+ * @copyright Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.
+ * @license GNU/GPL, see LICENSE.php
+ * Joomla! is free software and parts of it may contain or be derived from the
+ * GNU General Public License or other free or open source software licenses.
+ * See COPYRIGHT.php for copyright notices and details.
+ */
+
+body {
+	margin: 0; padding: 0;
+	font-family: Arial, Helvetica, Sans Serif; font-size:14px;
+	color: #333333;
+	text-align: center;
+	background:#fff url('../../gk_elvesocial/images/style1/main_bg_gradient.png') repeat-x 0 0;
+}
+
+#gk-bg  {
+	background:url("../images/bg.jpg") no-repeat scroll center 0 transparent;
+	overflow:hidden;
+	width:100%;
+	min-height:500px;
+}
+
+img  { border: 0 none; }
+
+/* -- id styles ------------------------------------- */
+
+#frame {
+	margin:40px auto;
+	width: 450px;
+	padding:20px;
+	background:#fff;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	opacity:0.6;
+}
+
+#frame form {
+	text-align: left;
+	margin-left:70px;
+}
+
+/* -- class styles ---------------------------------- */
+
+.outline {
+  padding: 2px;
+}
+
+/* -- form styles ----------------------------------- */
+
+form    { margin: auto; }
+form p  { margin: 0; padding: 0; }
+form fieldset { border: 0 none; margin: 0em; padding: 0.2em;}
+label         { display: block; float: left; }
+input 		  { padding: 1px; }
+input.button  { width: auto; height: 1.8em; cursor: pointer; }
+
+label   { margin: 5px 0px 2px 0px; width: 10em;}
+form p  { padding: 0.2em 0 0.2em 0; }
+form br  { display: none; }
+input    { border:1px solid #ddd;color:#999999;font-size:14px;height:22px;margin-right:8px;padding:3px 4px 0;width:160px;}
+input.button {background:url("../../gk_elvesocial/images/style1/button_bg.png") repeat-x scroll 0 0; border:1px solid #a2bb4e;color:#FFFFFF;
+				height:26px !important;padding:1px 14px 4px;vertical-align:bottom; margin:10px 10px 0 140px;}
+input.button:hover { background:url("../../gk_elvesocial/images/style1/button_bg.png") repeat-x scroll 0 bottom; border:1px solid #f6bd2f;}
+
+.remember {
+	float:left !important;
+	margin-left:-100px
+}
+
+
+#frmlogin	      { margin: 0 10px 0 10px;  }
+#frmlogin fieldset.button { text-align: right; }
+
+
+

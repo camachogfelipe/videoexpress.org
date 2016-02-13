@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CONTACTO</title>
+</head>
+<style type="text/css">
+body{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	color:#FFF;
+}
+#form{
+	background-color: #C00;
+	opacity: .7;
+   -moz-opacity: .7;
+   filter:alpha(opacity=70);
+	border-radius: 10px;
+	font:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	text-align: left;
+}
+#borrar{
+	color: #FFF;
+	font:"Courier New", Courier, monospace;
+	background-color: #000;
+	font-weight:bold;
+	border-bottom-style:solid;
+	border-radius:10px;
+}
+#cuadros{
+	border-radius:10px;
+	border:none;
+	padding:5px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-spacing:10px;
+	color: #C00;
+	
+
+}
+#text{
+	width:410px;
+	text-align:center;
+	float:inherit;
+	margin:auto;
+	padding:10px;
+	background-color: #000;
+	opacity: .7;
+   -moz-opacity: .7;
+  filter:alpha(opacity=70);
+   color:#CCC;
+}
+</style>
+
+
+<body>
+<div id="text" align="center">
+We want you to be part of this project. We would like to know your opinion about it. Contact us; we want to teach you our vision and plans.
+  <p>We need your support. </p>
+</div>
+<Form id= "contacto" name="contacto" action="send.php" Method="post">
+  <table border="0" align="center" cellpadding="5" cellspacing="5" id= "form">
+        <td align="right" width="120">Name and last name:</td>
+<td align="left" width="300"><INPUT NAME="nombre" id="cuadros" MAXLENGTH="30" TYPE="TEXT" VALUE="">
+</td>
+<tr>
+<td align="right" width="120">e-mail: </td>
+<td align="left" width="300"><INPUT NAME="mail" id="cuadros" MAXLENGTH="25" TYPE="TEXT" VALUE="">
+</td>
+<tr>
+<td align="right" width="120">Company:</td>
+<td align="left" width="300"><input name="empresa" id="cuadros" maxlength="50" type="TEXT" value="" /></td>
+<tr>
+<td width="120" align="right" valign="top">Subject: </td>
+<td aling= "center" ><input name="motivo" id="cuadros" maxlength="50" type="TEXT" value="" /></td>
+<tr>
+<td align="right" valign="top" widht="100">Place:</td>
+<td align="left" width="300"><input name="lugar" id="cuadros" maxlength="50" type="TEXT" value="" /></td>
+<tr>
+  <td align="right" valign="top" widht="100">Message:</td>
+  <td align="left"><textarea name="mensaje" id="cuadros" rows=6 cols=45>
+</textarea>
+    </td>
+<tr>
+  <td widht="100"></td>
+  <td align="right"><input type="reset" name="borrar" id="borrar" value="Reset" />
+  <input name="boton" id="borrar" type="SUBMIT" value="Send" /></td>
+  </TABLE>
+</form>
+</body>
+</html>

@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^adminenews.videoexpress.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www.adminenews.videoexpress.org$
+RewriteRule ^.*$ "http\:\/\/www\.videoexpress\.org\/enews\/administracion" [R=301,L]
+

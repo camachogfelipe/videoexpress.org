@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Tools standalone demo</title>
+<!-- include the Tools -->
+<script src="../Scripts/jquery-1.4.4.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function()  
+{  
+	$(".tab_content").hide();  
+	$(".tabs li:first").addClass("active").show();  
+	$(".tab_content:first").show();  
+	$(".tabs li").click(function()  
+	{  
+		$(".tabs li").removeClass("active");  
+		$(this).addClass("active");  
+		$(".tab_content").hide();  
+		var activeTab = $(this).find("a").attr("href");  
+		$(activeTab).fadeIn();  
+		return false;  
+	});  
+});
+</script>
+<link rel="stylesheet" type="text/css" href="tabs.css" />
+</head>
+
+<body>
+<div id="ppal">
+  <div class="menu_izq">
+	<div class="tabs">  
+		<li class="boton"><a href="#tab1"><img src="info.png" width="60" height="66" border="0"></a></li>  
+		<li class="boton"><a href="#tab2"><img src="trailer.png" width="48" height="66" border="0"></a></li>
+        <li class="boton"><a href="#tab3"><img src="education.png" width="52" height="66" border="0"></a></li>
+        <li class="boton"><a href="#tab4"><img src="comentarios.png" width="55" height="66" border="0"></a></li>
+	</div>
+	<div>
+		<li class="boton"><a href="http://www.videoexpress.org"><img src="back.png" width="48" height="66" border="0"></a></li>  
+	</div>
+  </div>
+  <div class="tab_container">  
+	<div id="tab1" class="tab_content">
+    	<center><strong style="background-image: url(tabs/bg_black_60.png); color: #FFF">ABC Animalitos de la Biblia</strong></center>
+	  <table width='100%' height='auto' border='0px' cellpadding='0' cellspacing='0px' style='margin-top:3px; color: #FFF'>
+	    <tr>
+          <td width='45%' height='340' align='center' style='border-right: 1px dotted #999999'>
+            <div style='width: 229'>
+              <div style='width: 75; height: 75; position: absolute; float: left; margin-left: 0px;'>
+                <img src='http://www.videoexpress.org/catalogo_antiguo/Imagenes_pagina/nuevo.png' width='75' height='75' style='vertical-align:top' align='left'>
+              </div>
+              <div style='width: 192px; height: 270px; float: left; margin-left: 22px; margin-top: 22px'>
+                <img src='http://www.videoexpress.org/catalogo_antiguo/Imagenes_peliculas/cv1_Animalitos de la biblia.jpg' width='192' height='260'>
+             </div>
+            </div>
+            <table width='80%' border='0px' cellpadding='0px' cellspacing='0' style='clear: both; margin-top: 0px; font-size:13px'>
+              <tr id='titulo_pelicula'><td><span>Auditorio: </span></td><td>Infantil</td></tr>
+              <tr id='titulo_pelicula'><td><span>Clasificaci&oacute;n: </span></td><td>G</td></tr>
+              <tr id='titulo_pelicula'><td><span>G&eacute;nero: </span></td><td>Dibujos animados</td></tr>
+              <tr id='titulo_pelicula'><td><span>Tiempo: </span></td><td>60 minutos</td></tr>
+              <tr id='titulo_pelicula'><td><span>Formato: </span></td><td>DVD</td></tr>
+              <tr id='titulo_pelicula'><td><span>Precio de compra: </span></td><td>$ 0</td></tr>
+            </table>
+          </td>
+          <td width='55%' style='vertical-align: top; text-align: justify; padding: 4px'>
+            <span id='titulo_pelicula'>Descripci&oacute;n: </span><br /><br />
+            <div id='descripcion'>Este video con dibujos animados utiliza el interés de los niños por los animales para introducirlos a la Biblia. Los niños aprenderán el alfabeto fácilmente al relacionar las letras con los nombres de los animales al mismo tiempo que aprenden la Palabra de Dios. Para cada letra del alfabeto se presenta un corto poema y un versículo en los que se menciona el animalito de la Biblia que empieza con esa letra. El video, además de entretenido, contiene versículos de la nueva traducción de la Biblia en lenguaje sencillo. El niño podrá ver el vídeo completo o por cada letra del alfabeto. El mensaje se presenta en forma sencilla y divertida; la presencia de los animales y el colorido son elementos que mantendrán el interés de los pequeños. Ideal para niños de 3 a 7 años y maestros de escuelas bíblicas.</div>
+          </td>
+        </tr>
+	  </table>
+	</div>  
+	<div id="tab2" class="tab_content">
+   	  <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="98%" height="360">
+		<param name="FlashVars" value="path=../files/[HD] Up Una Aventura De Altura Trailer 1 Espanol.flv" />
+		<param name="movie" value="../files/flvplayer.swf" />
+		<param name="quality" value="high" />
+		<param name="wmode" value="opaque" />
+		<param name="swfversion" value="9.0.45.0" />
+		  <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don't want users to see the prompt. -->
+		<param name="expressinstall" value="../Scripts/expressInstall.swf" />
+		  <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+		  <!--[if !IE]>-->
+		<object type="application/x-shockwave-flash" data="../files/flvplayer.swf" width="98%" height="360">
+		  <!--<![endif]-->
+		<param name="FlashVars" value="path=../files/[HD] Up Una Aventura De Altura Trailer 1 Espanol.flv" />
+		<param name="quality" value="high" />
+		<param name="wmode" value="opaque" />
+		<param name="swfversion" value="9.0.45.0" />
+		<param name="expressinstall" value="../Scripts/expressInstall.swf" />
+		  <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+		<div>
+		  <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+		  <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+		</div>
+		  <!--[if !IE]>-->
+	    </object>
+	      <!--<![endif]-->
+      </object> 
+	</div>
+	<div id="tab3" class="tab_content"><img src="education1.png" width="256" height="256"></div>
+	<div id="tab4" class="tab_content"><img src="comentarios1.png" width="128" height="128" /></div>
+	<div id="tab5" class="tab_content">Alquilar</div>
+	<div id="tab6" class="tab_content">Comprar</div>
+    <div id="tab7" class="tab_content"><img src="comentar1.png" width="128" height="128" /></div>
+  </div>
+  <div class="menu_der">
+	<div class="tabs">  
+		<li class="boton"><a href="#tab5"><img src="alquilar.png" width="48" height="66" border="0"></a></li>  
+		<li class="boton"><a href="#tab6"><img src="comprar.png" width="48" height="66" border="0"></a></li>
+        <li class="boton"><a href="#tab7"><img src="comentar.png" width="48" height="66" border="0"></a></li>
+        <li class="boton"></li>
+    </div>
+    <div>
+		<li class="boton"><a href="http://www.videoexpress.org"><img src="right.png" width="48" height="66" border="0"></a></li>
+        <li class="boton"></li>
+	</div>
+  </div>
+</div>
+</body>
+</html>

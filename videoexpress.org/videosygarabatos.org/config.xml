@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cuento>
+	<imagen w="768" h="400">img/fondo.jpg</imagen>
+	<imagen w="255" h="283">img/0.jpg</imagen>
+	<imagen w="255" h="283">img/1.jpg</imagen>
+	<imagen w="255" h="283">img/2.jpg</imagen>
+	<imagen w="255" h="283">img/3.jpg</imagen>
+	<imagen w="255" h="283">img/4.jpg</imagen>
+	<imagen w="255" h="283">img/5.jpg</imagen>
+	<imagen w="765" h="283">img/arriba.jpg</imagen>
+	<imagen w="765" h="283">img/abajo.jpg</imagen>
+</cuento>

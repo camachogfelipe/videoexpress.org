@@ -1,0 +1,33 @@
+.Títulos {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+	margin-left:18px;
+	color:#000;
+}
+.parrafos {
+	font-family: Tahoma, Geneva, sans-serif;
+	color:#333;
+	font-size: 12px;
+	word-spacing: normal;
+	list-style-position: inside;
+	list-style-type: circle;
+	font-weight: normal;
+	margin-left: 20px;
+}
+
+.radio {
+	margin: 50px 50px 50px 50px;
+}
+
+#fondo {
+	background-image: url(Imagenes/fondo-01.png);
+	background-repeat: repeat-y;
+	text-align: left;
+}
+.objects {
+	margin-left: 40px;
+
+
+
+}

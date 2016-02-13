@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<install version="1.5" type="template">
+				<name>gk_elvesocial</name>
+				<creationDate>28/05/2010</creationDate>
+				<author>Robert Gavick - GavickPro</author>
+				<authorEmail>info@gavick.com</authorEmail>
+				<authorUrl>http://www.gavick.com</authorUrl>
+				<copyright>Copyrighted Commercial Software</copyright>
+				<license>Proprietary - GavickPro eClub members only</license>
+				<version>2.0.2</version>
+				<description>
+		            <![CDATA[
+		            	  <link rel="stylesheet" type="text/css" href="../templates/gk_elvesocial/options/style.css" />
+						  <script type="text/javascript" src="../templates/gk_elvesocial/options/script.js"></script>
+						  <style type="text/css" media="all">
+		                  <!--
+		                  #wrap1 {padding:0px 0px 4px 0px;}
+		                  h1 {clear:both;font-family: Arial Narrow,sans-serif;font-size:18px;margin:0px 0px 12px 0px;padding:0px 0px 1px 10px;color:#C64934;}
+		                  .wrap2 {background:#fff;border:1px solid #8F8F8F;padding: 10px;}
+		                  -->
+		                  </style>
+		                  
+		                  <div id="wrap1">    
+		
+		                  <h1>elvesocial</h1>
+		                  <div class="wrap2">                        
+		                  <a title="Visit the official website!" href="http://www.gavick.com"> <img style="padding-left: 10px;float:right; background-color: #fff;border:1px solid #CFCFCF;margin:0px 20px 2px 20px;" src="../templates/gk_elvesocial/images/elvesocial_image.jpg" border="0" alt="Logo" /></a>
+		                  
+		                  <p><i>Finally a place where all my friends are readily accessible to my own liking: My Own Social Community Network as I want it to be!</i></p>
+		
+							<p>With Gavick Special Touch, the featured template this month is exclusively dedicated to the powerful and popular Joomla! extension - JomSocial from Azrul team.</p> 
+							<p>This is your opportunity to turn your online community interface into an elegantly JomSocial-integrated and superiorly designed website from the GavickPro Design Team.</p>
+							<p>With the new Elvesocial template, your friends and community members will enjoy every single moment of sharing messages and experiences online in a revolutionary digital design: Elvesocial.</p>
+		
+							<strong>An overview of key features of this template is as follow:</strong>
+		
+							<ul>
+								<li>Tableless design and 100% css based.</li>
+								<li>Build support for JomSocial from Team Azrul.com – Joomla Social Network Component.</li>
+								<li>Template development based on T3 Framework.</li>
+								<li>Supports multiple layout options, configured within seconds from backend</li>
+								<li>Amazing Mega Menu system with multiple menu types support.</li>
+								<li>Native Iphone &amp; Handheld optimization and style support.</li>
+								<li>Google Chrome Frame Meta Support.</li>
+								<li>Improved style for Joomla! Core system pages.</li>
+								<li>Page layouts overwrite option on template parameters.</li>
+								<li>Modules suffix's build-in template for module styling.</li>
+								<li>Build style support for Jcomments Component from JoomlaTune.</li>
+								<li>Build style support for K2 Component from JoomlaWorks.</li>
+								<li>Build support for the News Show Pro GK4 module with exclusive build-in template design.</li>
+								<li>Build support for TabsManager GK3 component for tabs content display with exclusive template design.</li>
+								<li>Build support for the News Show Pro GK1 module (now with new features added, with special novelty of automatic creation of thumbnails ).</li>
+								<li>Disable option for main body appearance on front page.</li>
+								<li>Build support for Cufon fonts javascript rendering.</li>
+								<li>Option of module as component by setting module on main body position.</li>
+								<li>Option of Column position to left or right display.</li>
+								<li>Configurable Column position width.</li>
+								<li>Configurable Header1 position width.</li>
+								<li>Full block's size for user customization on template parameters.</li>
+								<li>Login and Register buttons options with modalbox effect display.</li>
+								<li>Easy footer content configuration on template parameters.</li>
+								<li>Build support for WYSIWYG Friendly Typography editor plugin.</li>
+								<li>Compressed engine option for each modules.</li>
+								<li>Support for language translation.</li>
+								<li>2 layout options: 2 columns (component + right)  and 1 column (component).</li>
+								<li>All 40 modules are fully collapsible  and more 20 modules positions ready for tabs.</li>
+								<li>Impressive built-in content style.</li>
+								<li>Gavick Suckerfish menu version, with 2 built-in options - Suckerfish menu and Mootools. 34 different styles moomenu animation effects..</li>
+								<li>Speed menu animation option</li>
+								<li>Optional IE6 Warning / Upgrade Notification</li>
+								<li>Lightweight, modern and very fast-loading design</li>
+								<li>Joomla 1.5 Native</li>
+								<li>W3C XHTML 1.0 Transitional. W3C CSS Valid</li>
+								<li>Fully compatible IE7+, Firefox 2+, Firefox 3, Flock 0.7+, Netscape, Safari, Opera 9.5, Chrome.</li>
+								<li>Delivered with Special 50% discount coupon to get JomSocial Component.</li>
+								<li>Delivered with source Adobe .PSD files.</li>
+								<li>Delivered with "QuickStart Package".</li>
+							</ul>
+							                        
+		                  	View elvesocial in <a href="http://demo.gavick.com/index.php?year=2009&month=Jul" target="_blank">live demo</a>
+					</div></div>]]>
+				</description>
+				<files>
+								<filename>component.php</filename>
+								<filename>favicon.ico</filename>
+								<filename>index.html</filename>
+								<filename>index.php</filename>
+								<filename>params.ini</filename>
+								<filename>template_thumbnail.png</filename>
+								<folder>css</folder>
+								<folder>html</folder>
+								<folder>images</folder>
+								<folder>js</folder>
+								<folder>layouts</folder>
+								<folder>libs</folder>
+								<folder>fonts</folder>
+								<folder>options</folder>
+				</files>
+				<languages>
+								<language tag="en-GB">en-GB.tpl_gk_elvesocial.ini</language>
+				</languages>
+				<positions>
+								<position>hornav</position>
+								<position>breadcrumb</position>
+								<position>search</position>
+								<position>header1</position>
+								<position>header2</position>
+								<position>login</position>
+								<posiion>register</posiion>
+								<position>banner1</position>
+								<position>banner2</position>
+								<position>banner3</position>
+								<position>left1</position>
+								<position>left2</position>
+								<position>left_top</position>
+								<position>left_bottom</position>
+								<position>right1</position>
+								<position>right2</position>
+								<position>right_top</position>
+								<position>right_bottom</position>
+								<position>footnav</position>
+								<position>debug</position>
+								<position>inset1</position>
+								<position>inset2</position>
+								<position>top</position>
+								<position>bottom</position>
+								<position>adv_top</position>
+								<position>adv_bottom</position>
+								<position>mainbody</position>
+								<position>top1</position>
+								<position>top2</position>
+								<position>top3</position>
+								<position>top4</position>
+								<position>top5</position>
+								<position>top6</position>
+								<position>top7</position>
+								<position>top8</position>
+								<position>bottom1</position>
+								<position>bottom2</position>
+								<position>bottom3</position>
+								<position>bottom4</position>
+								<position>bottom5</position>
+								<position>bottom6</position>
+								<position>bottom7</position>
+								<position>bottom8</position>
+								<position>bottom9</position>
+								<position>bottom10</position>
+								<position>bottom11</position>
+								<position>bottom12</position>
+								<position>bottom13</position>
+								<position>bottom14</position>
+								<position>bottom15</position>
+								<position>bottom16</position>
+								<position>menu1</position>
+								<position>menu2</position>
+								<position>menu3</position>
+								<position>menu4</position>
+								<position>menu5</position>
+								<position>menu6</position>
+								<position>menu7</position>
+								<position>menu8</position>
+								<position>menu9</position>
+								<position>menu10</position>
+								<position>user_menu</position>
+								<position>tab1</position>
+								<position>tab2</position>
+								<position>tab3</position>
+								<position>tab4</position>
+								<position>tab5</position>
+								<position>tab6</position>
+								<position>tab7</position>
+								<position>tab8</position>
+								<position>tab9</position>
+								<position>tab10</position>
+								<position>tab11</position>
+								<position>tab12</position>
+								<position>tab13</position>
+								<position>tab14</position>
+								<position>tab15</position>
+								<position>tab16</position>
+								<position>tab17</position>
+								<position>tab18</position>
+								<position>tab19</position>
+								<position>tab20</position>
+								<position>mobile_top</position>
+								<position>mobile_bottom</position>
+				</positions>
+				<params>
+								<param type="spacer" default="Presets" />
+								<param name="frontpage" class="gk_switch" type="list" default="1" label="Show mainbody on frontpage" description="Show mainbody on frontpage">
+								<option value="1">Enabled</option>
+								<option value="0">Disabled</option>
+								</param>
+								<param name="mainbody_pos" type="list" default="1" label="Mainbody position" description="">
+								<option value="0">No mainbody</option>
+								<option value="1">Mainbody or component</option>
+								<option value="2">Mainbody before component</option>
+								<option value="3">Mainbody after component</option>
+								</param>
+								<param name="main_layout" type="filelist" directory="templates/gk_elvesocial/layouts" stripext="true" default="" label="Default Layout" description="This template supports various layout options. Check the options from dropdown. Advanced users can create custom page layouts, while using Page Layouts Overwrite option below." />
+								<param name="page_layouts" type="textarea" cols="50" rows="8" default="" label="Page layouts overwrite" description="Assign specific layout for each page in format: Itemid=layout_name or com_name=layout_name. Each page per row. Eg: The Sport section has the Itemid=385 and you want to use a full with layout (without left, right module positions). You can have a setting: '385=1column'. You can add new layout options by duplicating and customize the main 'default.php' layout" />
+								<param name="iphone_layout" type="filelist" directory="templates/gk_elvesocial/layouts" stripext="true" default="" label="Iphone" description="Layout Style For Iphone Agents" />
+								<param name="other_handheld_layout" type="filelist" directory="templates/gk_elvesocial/layouts" stripext="true" default="" label="Other Handheld devices" description="Layout Style For Other Handheld/mobile Agents Like Android, Blackberry, Palm, Windows Mobile..." />
+								<param type="spacer" default="Dimensions" />
+								<param name="gk_screen" type="list" default="982" label="Template Width" description="Choose between various width options. AUTO=This would be auto decided based on user resolution. Narrow Screen=782px  Wide Screen=982px  Specified Percentage=fluid  Specified Pixels=fix">
+								<option value="auto">AUTO</option>
+								<option value="782">Narrow Screen</option>
+								<option value="996">Wide Screen</option>
+								<option value="fluid">SPECIFIED PERCENTAGE</option>
+								<option value="fix">SPECIFIED PIXEL</option>
+								</param>
+								<param name="gk_screen-fluid-fix-gk_screen_width" type="text" default="" label="Specified width" description="SPECIFIED WIDTH DESCRIPTION" />
+								<param name="header1" type="text" default="50" label="Header1 position width" description="" />
+								<param name="left1_column" type="text" default="10" label="Left 1 column width" description="" />
+								<param name="left2_column" type="text" default="10" label="Left 2 column width" description="" />
+								<param name="right1_column" type="text" default="20" label="Right 1 column width" description="" />
+								<param name="right2_column" type="text" default="20" label="Right 2 column width" description="" />
+								<param name="inset1_column" type="text" default="20" label="Inset 1 column width" description="" />
+								<param name="inset2_column" type="text" default="20" label="Inset 2 column width" description="" />
+								<param type="spacer" default="Fonts" />
+								<param name="font_method" type="list" default="1" label="Font style" description="Select font style - cufon or standard fonts">
+								<option value="1">Standard fonts</option>
+								<option value="0">Cufon</option>
+								</param>
+								<param name="font_family" type="list" default="1" label="Basic font families" description="Select basic font families used in template">
+								<option value="1">Verdana</option>
+								<option value="2">Georgia</option>
+								<option value="3">Arial</option>
+								<option value="4">Impact</option>
+								<option value="5">Tahoma</option>
+								<option value="6">Trebuchet MS</option>
+								<option value="7">Arial Black</option>
+								<option value="8">Times New Roman</option>
+								<option value="9">Palatino Linotype</option>
+								<option value="10">Lucida Sans Unicode</option>
+								<option value="11">MS Serif</option>
+								<option value="12">Comic Sans MS</option>
+								<option value="13">Courier New</option>
+								<option value="14">Lucida Console</option>
+								</param>
+								<param name="font_family1" type="list" default="1" label="Fonts - headers" description="Select font families used on headers and moduletables">
+								<option value="1">Verdana</option>
+								<option value="2">Georgia</option>
+								<option value="3">Arial</option>
+								<option value="4">Impact</option>
+								<option value="5">Tahoma</option>
+								<option value="6">Trebuchet MS</option>
+								<option value="7">Arial Black</option>
+								<option value="8">Times New Roman</option>
+								<option value="9">Palatino Linotype</option>
+								<option value="10">Lucida Sans Unicode</option>
+								<option value="11">MS Serif</option>
+								<option value="12">Comic Sans MS</option>
+								<option value="13">Courier New</option>
+								<option value="14">Lucida Console</option>
+								</param>
+								<param name="font_family2" type="list" default="1" label="Fonts - K2" description="Select font families used on K2 component">
+								<option value="1">Verdana</option>
+								<option value="2">Georgia</option>
+								<option value="3">Arial</option>
+								<option value="4">Impact</option>
+								<option value="5">Tahoma</option>
+								<option value="6">Trebuchet MS</option>
+								<option value="7">Arial Black</option>
+								<option value="8">Times New Roman</option>
+								<option value="9">Palatino Linotype</option>
+								<option value="10">Lucida Sans Unicode</option>
+								<option value="11">MS Serif</option>
+								<option value="12">Comic Sans MS</option>
+								<option value="13">Courier New</option>
+								<option value="14">Lucida Console</option>
+								</param>
+								<param name="gk_font" type="list" default="3" label="Font size" description="Choose Default Font Size For Your Frontend. Template default is 3.">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								</param>
+								<param name="cufon_font" type="filelist" default="-1" label="Cufon - basic" description="" directory="templates/gk_elvesocial/fonts" filter="" exclude="\.html" stripext="" />
+								<param name="cufon_fontname" type="text" default="" label="Cufon font name - base" description="" />
+								<param name="cufon_font1" type="filelist" default="-1" label="Cufon - headers" description="" directory="templates/gk_elvesocial/fonts" filter="" exclude="\.html" stripext="" />
+								<param name="cufon_font1name" type="text" default="" label="Cufon font name - headers" description="" />
+								<param name="cufon_font2" type="filelist" default="-1" label="Cufon - K2" description="" directory="templates/gk_elvesocial/fonts" filter="" exclude="\.html" stripext="" />
+								<param name="cufon_font2name" type="text" default="" label="Cufon font name - K2" description="" />
+								<param type="spacer" default="Features" />
+								<param name="register_button" class="gk_switch" type="list" default="1" label="Register button only for unregisered users" description="">
+								<option value="1">Enabled</option>
+								<option value="0">Disabled</option>
+								</param>
+								<param name="logoType" type="list" default="image" label="Select Logo Type" description="Choose between Image or Text type logo.">
+								<option value="image">Image</option>
+								<option value="text">Text</option>
+								</param>
+								<param name="logoType-text-logoText" type="text" default="" size="50" label="Logo text" description="Enter Your Logo Text Here. Select Text Above In  Logo Type For This To Take Effect." />
+								<param name="logoType-text-sloganText" type="text" default="" size="50" label="Slogan" description="Enter Slogal Line. This Will Be Seen Below The Text Logo In Your Frontend." />
+								<param name="tools_button" type="list" class="gk_switch" default="1" label="Tools" description="Enable this option if you want to enable tools like font-size switcher">
+								<option value="1">Enabled</option>
+								<option value="0">Disabled</option>
+								</param>
+								
+								<param name="chrome_frame" class="gk_switch" type="list" default="1" label="Google Chrome Frame support" description="Enables Google Chrome Frame metatag in head section of template">
+								<option value="1">Enabled</option>
+								<option value="0">Disabled</option>
+								</param>
+								
+								<param name="t3_logo" class="gk_switch" type="list" default="1" label="T3 Logo at bottom" description="">
+								<option value="1">Enabled</option>
+								<option value="0">Disabled</option>
+								</param>
+								
+								<param name="stylearea" type="list" class="gk_switch" default="1" label="Style switcher" description="Enable this option if you want to enable style switcher in floating panel">
+								<option value="1">Enabled</option>
+								<option value="0">Disabled</option>
+								</param>
+								
+								<param name="ie6bar" class="gk_switch" type="list" default="1" label="IE6 Bar" description="">
+								<option value="1">Enabled</option>
+								<option value="0">Disabled</option>
+								</param>
+								
+								<param name="footer_content" type="text" label="Copyright" description="Here you can set text visible on right side of footer" default="Template Design © Joomla Templates | GavickPro. All rights reserved." />
+								<param type="spacer" default="Menu" />
+								<param name="menutype" type="menu" default="mainmenu" label="Menu Module" description="Choose Menu Module. This Will Be Displayed In Horizontal Navigation." />
+								<param name="gk_menu" type="list" default="css" label="Menu Type" description="Choose From Available Menu's Types. If planning to use Mega Menu, you need to read the user guide, link given in left side description.">
+								<option value="split">Split Menu</option>
+								<option value="css">CSS Menu</option>
+								<option value="moo">Moo Menu</option>
+								<option value="dropline">Dropline Menu</option>
+								<option value="mega">Mega Menu</option>
+								</param>
+								<param name="startlevel" type="text" default="0" label="Start Level" description="Level to start rendering the Menu at. 0 is the first level." />
+								<param name="endlevel" type="text" default="-1" label="End Level" description="Level to stop rendering the Menu at. -1 for unlimited." />
+								<param name="page_menus" type="textarea" cols="50" rows="8" default="" label="Customize menu for page" description="Assign specific menu for each page in format: Itemid=menu_name or com_name=menu_name. Each page per row. Eg: The Sport section has the Itemid=385 and you want to use css menu. You can have a setting: '385=css'." />
+								<param name="gk_menu-mega-animation" type="list" default="slide" label="Animation Type" description="The megamenu animation only work in LTR mode.">
+								<option value="none">None</option>
+								<option value="slide">Slide</option>
+								<option value="fade">Fade</option>
+								<option value="slide_fade">Slide &amp; Fade</option>
+								</param>
+								<param name="gk_menu-mega-duration" type="text" default="300" label="Animation duration" description="Time (in miliseconds) to slide/fade menu when showing" />
+				</params>
+</install>

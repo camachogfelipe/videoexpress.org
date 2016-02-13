@@ -1,0 +1,55 @@
+body {
+	background-image: url(imagenes/fondo-01.png);
+	background-repeat: no-repeat;
+	background-color: #639;
+	background-position: top;
+}
+body,td,th {
+	color: #000;
+	background-color: #F60;
+	text-align: center;
+}
+#cuerpo {
+    height: 410px;
+	background-color: #F60;
+	background-image: url(imagenes/videosygarabatos_02.png);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align: center;
+}
+#FlashID {
+	background-color: #EBD6B7;
+}
+.cuerpo2 {
+	background-attachment: scroll;
+	background-image: url(imagenes/chick_03.png);
+	background-repeat: repeat;
+	background-position: center;
+	background-color: #F60;
+}
+.chick {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 12px;
+	color: #630;
+}
+.chick div
+{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ppal
+{
+  width: 870px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#encabezado
+{
+  width: 870px;
+}
+

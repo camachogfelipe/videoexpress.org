@@ -1,0 +1,324 @@
+# Webalizer V2.20-01 Incremental Data - 08/25/2011 16:57:51
+2011 8 25 16 57 51
+529 356 9 66 13 8 14362839 89 17 0
+3 76 108 20 25
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+214 130 1793327 2 47 4
+68 24 253228 2 17 5
+0 0 0 0 0 0
+48 39 2695961 2 4 2
+14 10 41124 3 3 2
+185 153 9579199 3 18 4
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+1 1 7385 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+2 1 5983 1
+1 0 231 1
+1 0 231 1
+152 127 5961948 14
+0 0 0 0
+0 0 0 0
+0 0 0 0
+34 13 111758 6
+1 1 0 1
+127 83 4263717 23
+40 16 191726 11
+113 76 1123327 24
+0 0 0 0
+0 0 0 0
+57 38 2696533 6
+0 0 0 0
+0 0 0 0
+0
+0
+0
+356
+0
+0
+0
+0
+0
+0
+0
+7
+7
+0
+77
+0
+0
+0
+0
+0
+0
+73
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+7
+0
+0
+0
+0
+0
+# -urls- 
+/
+0 11 0 23569 9 1
+/sitiotmp/templates/gk_elvesocial/css/k2.css
+0 5 0 215645 0 0
+/sitiotmp/templates/gk_elvesocial/favicon.ico
+0 6 0 4600 0 0
+/images/0.gif
+0 7 0 215 0 0
+/sitiotmp/media/system/css/modal.css
+0 5 0 5795 0 0
+/sitiotmp/templates/gk_elvesocial/js/cufon.js
+0 4 0 73028 0 0
+/sitiotmp/installation/js/jquery.min.js
+0 14 0 572540 0 0
+/images/ixcp.css
+0 6 0 44185 0 0
+/sitiotmp/images/imagenes/catalogo/nemo.jpg
+0 2 25917968 115384 0 0
+/images/ball.gif
+0 7 0 1010 0 0
+/sitiotmp/media/system/images/closebox.png
+0 2 25916896 3820 0 0
+/sitiotmp/templates/gk_elvesocial/js/menu/mega.js
+0 4 0 70888 0 0
+/sitiotmp/templates/gk_elvesocial/css/joomla.css
+0 4 0 61280 0 0
+/sitiotmp/templates/gk_elvesocial/images/style1/bottom_bg_top.png
+0 4 0 163680 0 0
+/sitiotmp/components/com_k2/js/k2.js
+0 5 0 15135 0 0
+/images/hosted.jpg
+0 8 0 42264 0 0
+/sitiotmp/templates/gk_elvesocial/css/menu/mega.css
+0 4 0 19496 0 0
+/sitiotmp/templates/gk_elvesocial/images/footer_bg.png
+0 4 0 3020 0 0
+/sitiotmp/images/imagenes/catalogo/spunky.jpg
+0 2 25917392 50118 0 0
+/sitiotmp/templates/system/css/system.css
+0 4 0 5540 0 0
+/sitiotmp/images/imagenes/catalogo/odisea5.jpg
+0 2 25918112 162872 0 0
+/sitiotmp/templates/gk_elvesocial/js/gk.script.js
+0 4 0 33144 0 0
+/sitiotmp/templates/gk_elvesocial/images/printButton.png
+0 3 0 2007 0 0
+/sitiotmp/installation/css/img/header_bg.png
+0 18 0 15310 0 0
+/sitiotmp/media/system/js/modal.js
+0 4 0 42352 0 0
+/sitiotmp/templates/gk_elvesocial/images/style1/main_bg_gradient.png
+0 4 0 174992 0 0
+/sitiotmp/images/imagenes/catalogo/odisea4.jpg
+0 2 25918400 807422 0 0
+/sitiotmp/images/imagenes/catalogo/odisea3.jpg
+0 2 25918256 860928 0 0
+/sitiotmp/installation/
+0 31 0 50141 1 3
+/sitiotmp/templates/gk_elvesocial/css/addons.css
+0 4 0 11404 0 0
+/sitiotmp/templates/gk_elvesocial/js/domready_fix.js
+0 5 0 6380 0 0
+/sitiotmp/images/stories/creditos.png
+0 4 0 196060 0 0
+/sitiotmp/images/imagenes/catalogo/odisea2.jpg
+0 2 25917248 29658 0 0
+/sitiotmp/templates/gk_elvesocial/images/logo.png
+0 5 0 896852 0 0
+/sitiotmp/installation/css/img/btn_next.png
+0 18 0 18190 0 0
+/sitiotmp/templates/gk_elvesocial/css/typo.css
+0 4 0 63660 0 0
+/images/header_bg.gif
+0 7 0 355 0 0
+/sitiotmp/images/imagenes/catalogo/odisea1.jpg
+0 2 25917824 61144 0 0
+/sitiotmp/images/imagenes/catalogo/ardillas.jpg
+0 2 25917536 100042 0 0
+/sitiotmp/images/flash/anime.swf
+0 5 0 1646641 0 0
+/sitiotmp/templates/gk_elvesocial/images/emailButton.png
+0 3 0 1740 0 0
+/sitiotmp/ArcticExternalAll.swf
+0 5 0 21316 0 0
+/sitiotmp/templates/gk_elvesocial/images/style1/bg.jpg
+0 6 0 1249386 0 0
+/sitiotmp/templates/gk_elvesocial/css/layout.css
+0 4 0 13772 0 0
+/sitiotmp/templates/system/css/general.css
+0 5 0 14000 0 0
+/sitiotmp/installation/js/install.js
+0 14 0 232290 0 0
+/sitiotmp/templates/gk_elvesocial/images/pdf_button.png
+0 3 0 132546 0 0
+/sitiotmp/templates/gk_elvesocial/css/gk_stuff.css
+0 4 0 71556 0 0
+/sitiotmp/installation/css/install.css
+0 14 0 41010 0 0
+/sitiotmp/images/stories/demo/img3.jpg
+0 5 0 830486 0 0
+/sitiotmp/media/system/js/mootools.js
+0 4 0 297736 0 0
+/sitiotmp/media/system/js/caption.js
+0 4 0 7852 0 0
+/sitiotmp/images/imagenes/catalogo/anastasia.jpg
+0 2 25917680 70096 0 0
+/sitiotmp/images/stories/demo/img2.jpg
+0 4 0 1033744 0 0
+/sitiotmp/images/stories/demo/img1.jpg
+0 4 0 830036 0 0
+/sitiotmp/templates/gk_elvesocial/css/template.css
+0 4 0 62968 0 0
+/images/grad-title.gif
+0 7 0 770 0 0
+/sitiotmp/installation/js/jquery-ui.min.js
+0 14 0 402700 0 0
+/images/aff.jpg
+0 7 0 34460 0 0
+/sitiotmp/images/flash/sonido.swf
+0 13 0 1291308 0 0
+/sitiotmp/installation/css/redmond/jquery-ui-redmond.css
+0 14 0 274800 0 0
+/sitiotmp/
+0 13 0 95189 4 5
+/sitiotmp/installation/js/jquery.blockUI.js
+0 14 0 147150 0 0
+/images/header_logo.gif
+0 7 0 20520 0 0
+/sitiotmp/installation/css/img/logo.png
+0 18 0 10010 0 0
+/sitiotmp/templates/gk_elvesocial/images/style1/bottom_bg_abstract.png
+0 5 0 211870 0 0
+# End Of Table - urls
+# -sites- (monthly)
+50-57-113-16.static.cloud-ips.com
+0 1 0 0 0 0
+-
+adsl186-2872006.dyn.etb.net.co
+0 228 152 8268346 4 1314291449
+/sitiotmp/
+dynamic-ip-19015792142.cable.net.co
+0 52 49 1825145 2 1314268227
+/sitiotmp/
+121.141.172.40
+0 2 0 462 1 1314176475
+-
+ec2-184-73-84-16.compute-1.amazonaws.com
+0 1 1 0 1 1314114651
+/
+msnbot-65-52-110-27.search.msn.com
+0 2 1 5983 1 1313912812
+/
+ec2-67-202-59-219.compute-1.amazonaws.com
+0 1 1 7385 1 1314237218
+/
+adsl201-244170218.dyn.etb.net.co
+0 195 114 1559557 6 1313961052
+/sitiotmp/
+adsl200-11961165.din.etb.net.co
+0 47 38 2695961 1 1314136543
+/sitiotmp/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+adsl186-2872006.dyn.etb.net.co
+0 143 113 7787331 2 1314291449
+/sitiotmp/
+dynamic-ip-19015792142.cable.net.co
+0 41 39 1784483 1 1314268227
+/sitiotmp/
+ec2-67-202-59-219.compute-1.amazonaws.com
+0 1 1 7385 1 1314237218
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://videosygarabatos.org/sitiotmp/installation/css/install.css
+1 36
+- (Direct Request)
+0 109
+http://www.videosygarabatos.org/
+1 30
+http://videosygarabatos.org/sitiotmp/
+1 158
+http://videosygarabatos.org/sitiotmp/templates/gk_elvesocial/css/joomla.css
+1 1
+http://www.videosygarabatos.org/images/ixcp.css
+1 4
+http://videosygarabatos.org/sitiotmp/index.php
+1 38
+http://videosygarabatos.org/sitiotmp/installation/index.php
+1 119
+http://videosygarabatos.org/sitiotmp/images/flash/anime.swf
+1 4
+http://videosygarabatos.org/sitiotmp/templates/gk_elvesocial/css/template.css
+1 6
+http://videosygarabatos.org/
+1 17
+http://www.netcraft.com/survey/
+0 1
+http://videosygarabatos.org/images/ixcp.css
+1 6
+# End Of Table - referrers
+# -agents- 
+Opera/9.80 (Windows NT 6.0; U; es-ES) Presto/2.9.168 Version/11.50
+0 52
+Mozilla/5.0 (Windows NT 6.1; rv:6.0) Gecko/20100101 Firefox/6.0
+0 327
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1
+0 76
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+0 65
+Mozilla/4.0 (compatible; Netcraft Web Server Survey)
+0 1
+Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+0 2
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 1
+contype
+0 2
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames
